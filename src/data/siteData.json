@@ -1,0 +1,2639 @@
+[
+  {
+    "_createdAt": "2026-06-26T04:11:51Z",
+    "_id": "2023db2a-18bf-45f9-8b52-89881f98fc3a",
+    "_rev": "9wv3c53RQI1aqnVOhCAUVQ",
+    "_type": "testimonial",
+    "_updatedAt": "2026-06-26T04:21:35Z",
+    "location": "Sioux Falls, South Dakota",
+    "name": "Mendy and Jeff Bigalow",
+    "order": -1,
+    "quote": "Such a nice place to stay. Comfortable and very relaxing. The photos don't do it justice. Looking forward to visiting again, and next time I'd love to try one of the other cabins on the property.",
+    "rating": 5
+  },
+  {
+    "_createdAt": "2026-07-26T15:53:16Z",
+    "_id": "6b2b8699-4087-416f-a0e1-7434175dc97a",
+    "_rev": "mCHMwpLXxxJA1GIf8kD2KN",
+    "_system": {
+      "base": {
+        "id": "6b2b8699-4087-416f-a0e1-7434175dc97a",
+        "rev": "90yEAhvqNgokEgbU2WjA2p"
+      }
+    },
+    "_type": "testimonial",
+    "_updatedAt": "2026-07-30T06:23:04Z",
+    "location": "Ft. Worth, TX",
+    "name": "Stalin Gomes",
+    "order": 1,
+    "quote": "This place is exactly as its described and more. The place is clean, tidy, spacious and quite. It also has a very nice lake nearby. they are also very flexible about checking in and checking out. We drove for a very long time and stayed for a night. They understood our situation and let us check in early and check out a bit later than their instructions. So overall it was a great experience. I wish we could stay there longer.     ",
+    "rating": 5
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:48Z",
+    "_id": "9wv3c53RQI1aqnVOhD5HmD",
+    "_rev": "9wv3c53RQI1aqnVOhD5HiQ",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:48Z",
+    "description": "Luxury bedding with extra pillows and blankets for the ultimate night's sleep.",
+    "icon": "Bed",
+    "order": 5,
+    "title": "Bed Linens"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:50Z",
+    "_id": "9wv3c53RQI1aqnVOhD5IsR",
+    "_rev": "9wv3c53RQI1aqnVOhD5Ioe",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:50Z",
+    "description": "Cozy central heating to keep you warm during crisp autumns and winters.",
+    "icon": "Flame",
+    "order": 7,
+    "title": "Heating"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:52Z",
+    "_id": "9wv3c53RQI1aqnVOhD5JMl",
+    "_rev": "9wv3c53RQI1aqnVOhD5JIy",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:52Z",
+    "description": "Seamless arrival experience with a secure, personalized door code.",
+    "icon": "Key",
+    "order": 9,
+    "title": "Self Check-in"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:54Z",
+    "_id": "9wv3c53RQI1aqnVOhD5KHc",
+    "_rev": "9wv3c53RQI1aqnVOhD5KDp",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:54Z",
+    "description": "These are fun and keep you engaged throughout the evening.",
+    "icon": "Flame",
+    "order": 11,
+    "title": "Private Fire Pit"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:55Z",
+    "_id": "9wv3c53RQI1aqnVOhD5Ki9",
+    "_rev": "9wv3c53RQI1aqnVOhD5KeM",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:55Z",
+    "description": "Each location has a BBQ grill... Because this is Kansas City!",
+    "icon": "Utensils",
+    "order": 12,
+    "title": "Private BBQ Grill"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:57Z",
+    "_id": "9wv3c53RQI1aqnVOhD5LK3",
+    "_rev": "9wv3c53RQI1aqnVOhD5LGG",
+    "_type": "testimonial",
+    "_updatedAt": "2026-06-26T09:16:57Z",
+    "location": "Atlanta, GA",
+    "name": "Sarah Jenkins",
+    "order": 1,
+    "quote": "The most restorative weekend of my life. The cabin was impeccable, and the silence of the forest was exactly what we needed.",
+    "rating": 5
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:44Z",
+    "_id": "S5poxwXylF3o9ymdwhLII3",
+    "_rev": "S5poxwXylF3o9ymdwhLIEU",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:44Z",
+    "description": "Ample parking available directly on the premises for your convenience.",
+    "icon": "Car",
+    "order": 1,
+    "title": "Parking"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:47Z",
+    "_id": "S5poxwXylF3o9ymdwhLIo8",
+    "_rev": "S5poxwXylF3o9ymdwhLIkZ",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:47Z",
+    "description": "Fully stocked culinary spaces where guests can prepare their own gourmet meals.",
+    "icon": "Utensils",
+    "order": 4,
+    "title": "Kitchens & Kitchenettes"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:51Z",
+    "_id": "S5poxwXylF3o9ymdwhLJRL",
+    "_rev": "S5poxwXylF3o9ymdwhLJNm",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:51Z",
+    "description": "Equipped with coffee makers and pour-over options for your morning ritual.",
+    "icon": "Coffee",
+    "order": 8,
+    "title": "Custom Coffee Bar"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:53Z",
+    "_id": "S5poxwXylF3o9ymdwhLJxQ",
+    "_rev": "S5poxwXylF3o9ymdwhLJtr",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:53Z",
+    "description": "Extra easy checkout experience.",
+    "icon": "LogOut",
+    "order": 10,
+    "title": "Easy Checkout"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:56Z",
+    "_id": "S5poxwXylF3o9ymdwhLKTV",
+    "_rev": "S5poxwXylF3o9ymdwhLKPw",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:56Z",
+    "description": "Available on request. We have docks and shorelines available for you to cast your line.",
+    "icon": "Fish",
+    "order": 13,
+    "title": "Fishing Equipment"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:59Z",
+    "_id": "S5poxwXylF3o9ymdwhLLHP",
+    "_rev": "S5poxwXylF3o9ymdwhLLDq",
+    "_type": "testimonial",
+    "_updatedAt": "2026-06-26T09:16:59Z",
+    "location": "Nashville, TN",
+    "name": "The Thompson Family",
+    "order": 3,
+    "quote": "We hosted our family reunion here. The communal spaces were perfect for gathering, yet everyone had their own private retreat.",
+    "rating": 5
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:39Z",
+    "_id": "S5poxwXylF3o9ymdwhhom9",
+    "_rev": "voupnMNE9rrQS0V5SJrVoN",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:04:04Z",
+    "baths": 3,
+    "bedrooms": "5 Bedrooms + Loft",
+    "bookingLink": "https://evolve.com/vacation-rentals/us/mo/odessa/552308",
+    "description": "A spacious 3,200 sq ft lakeside sanctuary perfect for large family reunions or wedding groups. Whether you're craving some quality time with loved ones, traveling for a wedding, or looking to unwind by the water, this spacious 5-bedroom + loft, 3-bath vacation rental cabin is the perfect home base! Gather around the crackling fire pit while gazing out at the still lake.",
+    "features": [
+      "Deck w/ dining area",
+      "Covered patio w/ lounge seating",
+      "2 gas grills, charcoal grill",
+      "Private fire pit",
+      "Direct Lake access",
+      "Bench swing",
+      "4 Smart TVs, video library",
+      "Workstation for remote work"
+    ],
+    "images": [
+      {
+        "_key": "image_ooqquf",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-13c343096d4220bc58f44d4bd804f5f613f93dd8-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/13c343096d4220bc58f44d4bd804f5f613f93dd8-1080x720.avif"
+      },
+      {
+        "_key": "image_21ixe",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8e122c058a0e4ac891821cc96a361ebb6b82b88c-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8e122c058a0e4ac891821cc96a361ebb6b82b88c-1080x720.avif"
+      },
+      {
+        "_key": "image_xei2oy",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6cf5a870eb930e1e6c1f38ba71570a007dba6813-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/6cf5a870eb930e1e6c1f38ba71570a007dba6813-1080x720.avif"
+      },
+      {
+        "_key": "image_ilckfa3",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bcd9ff04b476d22a9d85d4e5573bfd2bfee8ae10-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bcd9ff04b476d22a9d85d4e5573bfd2bfee8ae10-1080x720.avif"
+      },
+      {
+        "_key": "image_97ihp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b2217d5fcf746a824e8918b97cce58db3ef8b9f3-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b2217d5fcf746a824e8918b97cce58db3ef8b9f3-1080x720.avif"
+      },
+      {
+        "_key": "image_p5ltlb",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-23a57aa0963cd787b52cac4e419159af7666c0ef-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/23a57aa0963cd787b52cac4e419159af7666c0ef-1080x720.avif"
+      },
+      {
+        "_key": "image_513jgo",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5164aa73d60d88f2428fe511d865283ebf1cc6fb-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5164aa73d60d88f2428fe511d865283ebf1cc6fb-1080x720.avif"
+      },
+      {
+        "_key": "image_feqw4j",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f2607f827b46c35f7da56a1de9ccb6a7098d0af2-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f2607f827b46c35f7da56a1de9ccb6a7098d0af2-1080x720.avif"
+      },
+      {
+        "_key": "image_i91fih",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e518836eb5742a6ce790fca3f8361d3aebd6dd51-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/e518836eb5742a6ce790fca3f8361d3aebd6dd51-1080x720.avif"
+      },
+      {
+        "_key": "image_gidwbp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f93e613c07af96bfcabc624a3b3257af65f699c1-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f93e613c07af96bfcabc624a3b3257af65f699c1-1080x720.avif"
+      },
+      {
+        "_key": "image_hrhnvn",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-956472f4e2f26217c84bb8d59a068bac01ecbe0b-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/956472f4e2f26217c84bb8d59a068bac01ecbe0b-1080x720.avif"
+      },
+      {
+        "_key": "image_41m457",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8591f8411b8a0fd6c9a747abf76d46d12a9a13cc-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8591f8411b8a0fd6c9a747abf76d46d12a9a13cc-1080x720.avif"
+      },
+      {
+        "_key": "image_wxx94b",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3dd0b21bd00410a23a556f17b321a584a7d7e7c9-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3dd0b21bd00410a23a556f17b321a584a7d7e7c9-1080x720.avif"
+      },
+      {
+        "_key": "image_fv54zf",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-435b3a04116e5e242ee1a2bbb46da38795ab3248-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/435b3a04116e5e242ee1a2bbb46da38795ab3248-1080x720.avif"
+      },
+      {
+        "_key": "image_db8y8v",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3ad2bc45a2b421e8819997a50aec3c6ab3010df8-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3ad2bc45a2b421e8819997a50aec3c6ab3010df8-1080x720.avif"
+      },
+      {
+        "_key": "image_00ys5i",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a2a0dd0c2daa1acb36cb3a5c650eb1710bb754ac-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a2a0dd0c2daa1acb36cb3a5c650eb1710bb754ac-1080x720.avif"
+      },
+      {
+        "_key": "image_r6ike",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d587fdc026678d3d25eeacb32c57766e30ec396a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/d587fdc026678d3d25eeacb32c57766e30ec396a-1080x720.avif"
+      },
+      {
+        "_key": "image_ugz8eo",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0442f1d27f2d2fe711c9dca30abf3955c49676e6-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0442f1d27f2d2fe711c9dca30abf3955c49676e6-1080x720.avif"
+      },
+      {
+        "_key": "image_nabgl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-98d30b8c31b5bc31bf902d1ca6f8c7108486f350-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/98d30b8c31b5bc31bf902d1ca6f8c7108486f350-1080x720.avif"
+      },
+      {
+        "_key": "image_0dhxkd",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-13e6ae55aed1b3c9208a978aa1f5f129cbb2fc8b-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/13e6ae55aed1b3c9208a978aa1f5f129cbb2fc8b-1080x720.avif"
+      },
+      {
+        "_key": "image_lo3mjm",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3fee89d802104925065f2af5ec4d72db343811b1-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3fee89d802104925065f2af5ec4d72db343811b1-1080x720.avif"
+      },
+      {
+        "_key": "image_htjj1i",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0dbcf2abbf154569e3b210659c1a4c4c8876d183-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0dbcf2abbf154569e3b210659c1a4c4c8876d183-1080x720.avif"
+      },
+      {
+        "_key": "image_qlpjok",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c377ce31d0562dc474a278eae63783cd1e8fa281-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c377ce31d0562dc474a278eae63783cd1e8fa281-1080x720.avif"
+      },
+      {
+        "_key": "image_qyvdpe",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-402783c3c5a13d0c9b4cb64299e785277ed9236a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/402783c3c5a13d0c9b4cb64299e785277ed9236a-1080x720.avif"
+      },
+      {
+        "_key": "image_h5j63i",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5a5dc2a12b4c049c091041d9baf0a19fac92e591-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5a5dc2a12b4c049c091041d9baf0a19fac92e591-1080x720.avif"
+      },
+      {
+        "_key": "image_1jmth",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f869220ad749bdc0ef8a12144df98fffd787eb10-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f869220ad749bdc0ef8a12144df98fffd787eb10-1080x720.avif"
+      },
+      {
+        "_key": "image_uv78af",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7aa1a365dc8b97ad4571406dd48bb6b4d5526f8a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7aa1a365dc8b97ad4571406dd48bb6b4d5526f8a-1080x720.avif"
+      },
+      {
+        "_key": "image_7ishqj",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d65110f2af68c6bf51e7d48986ffe20202219612-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/d65110f2af68c6bf51e7d48986ffe20202219612-1080x720.avif"
+      },
+      {
+        "_key": "image_8cy03",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3eda9e719e6bbf1a5d348e5d2ea64c49de470764-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3eda9e719e6bbf1a5d348e5d2ea64c49de470764-1080x720.avif"
+      },
+      {
+        "_key": "image_swspfc",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a515331c40d2d13eb4bb109038fdcd409217f416-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a515331c40d2d13eb4bb109038fdcd409217f416-1080x720.avif"
+      },
+      {
+        "_key": "image_um8ums",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-72d94c3725b65fc429a99378d16457cff2f98008-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/72d94c3725b65fc429a99378d16457cff2f98008-1080x720.avif"
+      },
+      {
+        "_key": "image_tmi04",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9da30d3f1bc8f12d4d819530a83a7edd7014999d-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9da30d3f1bc8f12d4d819530a83a7edd7014999d-1080x720.avif"
+      },
+      {
+        "_key": "image_dd4py",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0ce425a7f0c4b79333a80122e9dc49dce4ed4780-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0ce425a7f0c4b79333a80122e9dc49dce4ed4780-1080x720.avif"
+      },
+      {
+        "_key": "image_wcr0yl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-dffd03331ed66fbcda7cf5d7f1babbcd054289b1-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/dffd03331ed66fbcda7cf5d7f1babbcd054289b1-1080x720.avif"
+      },
+      {
+        "_key": "image_gfxbt",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2a12f3624650537cb8c3dc46fd6fa5187c4d1667-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/2a12f3624650537cb8c3dc46fd6fa5187c4d1667-1080x720.avif"
+      }
+    ],
+    "location": "Odessa, MO",
+    "name": "East Pointe Bayview",
+    "order": 1,
+    "sleepingArrangements": [
+      {
+        "_key": "sa1",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 1"
+      },
+      {
+        "_key": "sa2",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 2"
+      },
+      {
+        "_key": "sa3",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 3"
+      },
+      {
+        "_key": "sa4",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 4"
+      },
+      {
+        "_key": "sa5",
+        "bed": "2 Twin Beds",
+        "room": "Bedroom 5"
+      },
+      {
+        "_key": "sa6",
+        "bed": "4 Twin Beds",
+        "room": "Loft"
+      },
+      {
+        "_key": "sa7",
+        "bed": "1 Full Sleeper Sofa",
+        "room": "Living Room"
+      }
+    ],
+    "sleeps": "15",
+    "slug": {
+      "_type": "slug",
+      "current": "east-pointe-bayview"
+    },
+    "sqFt": "3,200",
+    "status": "Available"
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:46Z",
+    "_id": "S5poxwXylF3o9ymdwhhq9h",
+    "_rev": "S5poxwXylF3o9ymdwhhq68",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:01:46Z",
+    "baths": 0,
+    "bedrooms": "TBD",
+    "description": "Elevated luxury among the canopy. Experience nature from a new perspective in our upcoming treehouse experience.",
+    "location": "Odessa, MO",
+    "name": "TreeHaus",
+    "order": 7,
+    "sleeps": "TBD",
+    "slug": {
+      "_type": "slug",
+      "current": "treehaus"
+    },
+    "status": "Coming Soon"
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:47Z",
+    "_id": "S5poxwXylF3o9ymdwhhqxb",
+    "_rev": "S5poxwXylF3o9ymdwhhqu2",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:01:47Z",
+    "baths": 0,
+    "bedrooms": "TBD",
+    "description": "Modern design meets rugged landscape. A stunning addition to our collection coming next season.",
+    "location": "Odessa, MO",
+    "name": "RocHaus",
+    "order": 8,
+    "sleeps": "TBD",
+    "slug": {
+      "_type": "slug",
+      "current": "rochaus"
+    },
+    "status": "Coming Soon"
+  },
+  {
+    "_createdAt": "2026-06-26T17:46:53Z",
+    "_id": "amenitiesPage",
+    "_rev": "S5poxwXylF3o9ymdwjKIkF",
+    "_type": "amenitiesPage",
+    "_updatedAt": "2026-06-26T17:46:53Z",
+    "hero": {
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-098fc9f05225f54632fe62911782872ef78d4456-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/098fc9f05225f54632fe62911782872ef78d4456-1080x720.jpg"
+      },
+      "subtitle": "We've thought of everything, so you don't have to.",
+      "title": "Guest Perks"
+    },
+    "intro": {
+      "body": "Explore the fantastic amenities waiting for you in each cabin. We integrate thoughtful services to ensure your time with us is seamless from check-in to check-out. We can't wait for you to find your perfect getaway retreat with us!",
+      "label": "Our Amenities",
+      "title": "Comfort & Convenience"
+    }
+  },
+  {
+    "_createdAt": "2026-06-26T17:50:52Z",
+    "_id": "cabinPage",
+    "_rev": "voupnMNE9rrQS0V5SKVwhP",
+    "_type": "cabinPage",
+    "_updatedAt": "2026-06-26T17:50:52Z",
+    "comeSeeUs": {
+      "body": "Experience the serene surroundings firsthand and discover your perfect getaway. We look forward to welcoming you!",
+      "subtitle": "Visit our offices to explore our stunning lakeside cabins!",
+      "title": "Come See Us"
+    },
+    "hero": {
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bc38d7f51bc7c8d07db3f826daff8205985d8d59-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bc38d7f51bc7c8d07db3f826daff8205985d8d59-1080x720.avif"
+      },
+      "subtitle": "Discover our range of cabins designed to accommodate all group sizes, whether you're planning a cozy getaway for two or a lively retreat for a large gathering.",
+      "title": "Lake Cabin Collection"
+    },
+    "intro": {
+      "body": "Each cabin is thoughtfully crafted to match your vacation intentions. Click on any cabin below to view full details, sleeping arrangements, and amenities.",
+      "label": "Our Portfolio",
+      "title": "Find Your Perfect Escape"
+    },
+    "mapImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-37e4d55981f6b2a09952496723704ed7a216e318-4096x3080-avif",
+        "_type": "reference"
+      },
+      "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
+    }
+  },
+  {
+    "_createdAt": "2026-06-26T11:17:15Z",
+    "_id": "communityPage",
+    "_rev": "9wv3c53RQI1aqnVOhF1VZI",
+    "_type": "communityPage",
+    "_updatedAt": "2026-06-26T17:31:12Z",
+    "concierge": {
+      "body": "We don't believe in automated forms for your special moments. Every event at East Pointe is tailored specifically to your vision. Connect directly with our Events Coordinator to discuss availability, packages, and custom arrangements.",
+      "bulletPoints": [
+        "Custom layout planning",
+        "Vendor recommendations (Catering, Florals, etc.)",
+        "Group accommodation discounts"
+      ]
+    },
+    "eventCards": [
+      {
+        "_key": "item1",
+        "_type": "eventCard",
+        "description": "Say \"I do\" with the lake as your witness. Our grounds provide a stunning, natural cathedral for ceremonies up to 50 guests.",
+        "features": [
+          "Lakeside Ceremonies",
+          "Bridal Cabin Packages",
+          "Photography Access"
+        ],
+        "icon": "Heart",
+        "title": "Intimate Weddings"
+      },
+      {
+        "_key": "item2",
+        "_type": "eventCard",
+        "description": "Reconnect without distractions. Book multiple cabins to keep the family close while giving everyone their own private space.",
+        "features": [
+          "Communal Fire Pits",
+          "Large Group Dining",
+          "Safe Kids Play Areas"
+        ],
+        "icon": "Users",
+        "title": "Family Reunions"
+      },
+      {
+        "_key": "item3",
+        "_type": "eventCard",
+        "description": "Step away from the boardroom. Our inspiring environment fosters creativity, team bonding, and strategic thinking.",
+        "features": [
+          "High-Speed Wifi",
+          "Team Building Activities",
+          "Catering Partners"
+        ],
+        "icon": "Briefcase",
+        "title": "Corporate Retreats"
+      }
+    ],
+    "hero": {
+      "subtitle": "Create lasting memories in the heart of nature."
+    },
+    "intro": {
+      "body": "East Pointe isn't just for quiet getaways; it's a vibrant backdrop for your most important milestones. From intimate lakeside weddings to productive corporate retreats, our grounds offer the perfect blend of privacy and community.",
+      "label": "Hosted at East Pointe",
+      "title": "Unforgettable Gatherings"
+    }
+  },
+  {
+    "_createdAt": "2026-06-26T00:44:12Z",
+    "_id": "explorePage",
+    "_rev": "S5poxwXylF3o9ymdwjFr0p",
+    "_system": {
+      "base": {
+        "id": "explorePage",
+        "rev": "voupnMNE9rrQS0V5SJHxMt"
+      }
+    },
+    "_type": "explorePage",
+    "_updatedAt": "2026-06-26T17:39:44Z",
+    "discoverSection": {
+      "cards": [
+        {
+          "_key": "card1",
+          "_type": "object",
+          "category": "Championship City",
+          "description": "Experience the thrill of Arrowhead Stadium or a classic ballgame at Kauffman Stadium. A short drive for an unforgettable game day.",
+          "icon": "Trophy",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720.avif"
+          },
+          "isWide": false,
+          "title": "Chiefs & Royals"
+        },
+        {
+          "_key": "card2",
+          "_type": "object",
+          "category": "History & Arts",
+          "description": "Visit the iconic Union Station, the beautiful Nelson-Atkins Museum of Art, and the National WWI Museum.",
+          "icon": "Building2",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-33a729a631b037f10f4bfa88210083093e502797-2500x1406-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/33a729a631b037f10f4bfa88210083093e502797-2500x1406.avif"
+          },
+          "isWide": false,
+          "title": "Union Station & Museums"
+        },
+        {
+          "_key": "card3",
+          "_type": "object",
+          "category": "Nightlife",
+          "description": "Immerse yourself in the rhythm of the 18th & Vine Jazz District or the vibrant energy of the Power & Light District.",
+          "icon": "Music",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-573e9dc846049b1e059fa76208dd04a74250af8a-1440x960-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/573e9dc846049b1e059fa76208dd04a74250af8a-1440x960.avif"
+          },
+          "isWide": false,
+          "title": "Power & Light District"
+        },
+        {
+          "_key": "card4",
+          "_type": "object",
+          "category": "Shopping & Dining",
+          "description": "Enjoy premier shopping and indulge in legendary Kansas City BBQ at renowned restaurants throughout the city.",
+          "icon": "ShoppingBag",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189.avif"
+          },
+          "isWide": false,
+          "title": "Country Club Plaza"
+        },
+        {
+          "_key": "card5",
+          "_type": "object",
+          "category": "Nature & Flora",
+          "description": "Kansas City's premier botanical garden, set on 970 acres of lush meadows and diverse gardens just minutes away.",
+          "icon": "Leaf",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333-webp",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333.webp"
+          },
+          "isWide": true,
+          "title": "Powell Gardens"
+        }
+      ],
+      "subtitle": "Explore the vibrant city known for its rich history, cultural attractions, and exciting entertainment options. From world-class BBQ to championship sports, it's all within reach.",
+      "title": "Discover Kansas City"
+    },
+    "hero": {
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0a7cb231925eed10b8e745a042de493ae9256ec1-3840x1464-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0a7cb231925eed10b8e745a042de493ae9256ec1-3840x1464.avif"
+      },
+      "subtitle": "Your ideal lake getaway, just a quick drive from the heart of Kansas City.",
+      "title": "Explore the Region"
+    },
+    "intro": {
+      "body1": "Escape the hustle and bustle of the city and enjoy a stay at our charming lake cabins in Odessa, MO. Perfectly situated just outside the Kansas City Metropolitan area, East Pointe offers the ultimate compromise: rugged seclusion when you want it, and city excitement when you need it.",
+      "body2": "Whether you are in town for a Chiefs game, a Royals match, or simply exploring the rich culture of the Midwest, our cabins serve as your adventurous basecamp.",
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5d2487d5b09b6e13a831d7410170117be0fb1fe1-1760x1320-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5d2487d5b09b6e13a831d7410170117be0fb1fe1-1760x1320.avif"
+      },
+      "label": "The Best of Both Worlds",
+      "title": "Quick Drive from Downtown KC"
+    },
+    "quoteSection": {
+      "backgroundImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a9d0163ca73640855848dbda93e885b34aa3f9ff-1920x1144-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a9d0163ca73640855848dbda93e885b34aa3f9ff-1920x1144.jpg"
+      },
+      "quote": "Experience the tranquility of lakeside living while maintaining easy access to the city's excitement."
+    }
+  },
+  {
+    "_createdAt": "2026-06-25T22:15:41Z",
+    "_id": "homePage",
+    "_rev": "voupnMNE9rrQS0V5SKWCyX",
+    "_system": {
+      "base": {
+        "id": "homePage",
+        "rev": "S5poxwXylF3o9ymdwgDn8R"
+      }
+    },
+    "_type": "homePage",
+    "_updatedAt": "2026-06-26T17:58:08Z",
+    "amenitiesPreview": {
+      "items": [
+        {
+          "_key": "a1",
+          "_type": "object",
+          "description": "24/7 Concierge & Support",
+          "icon": "Star",
+          "title": "5-Star Service"
+        },
+        {
+          "_key": "a2",
+          "_type": "object",
+          "description": "Secluded Private Locations",
+          "icon": "Wind",
+          "title": "Fresh Air"
+        },
+        {
+          "_key": "a3",
+          "_type": "object",
+          "description": "Smart Locks & Security",
+          "icon": "ShieldCheck",
+          "title": "Secure & Safe"
+        },
+        {
+          "_key": "a4",
+          "_type": "object",
+          "description": "Games, Cribs & More",
+          "icon": "Users",
+          "title": "Family Ready"
+        }
+      ],
+      "title": "The East Pointe Standard"
+    },
+    "carouselItems": [
+      {
+        "_key": "c1",
+        "_type": "object",
+        "description": "Discover our hand-picked portfolio of luxury cabins, each offering unique architecture and premium amenities.",
+        "icon": "Star",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-bed151d9de07046195459401cff63f4c6985e302-1080x720-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bed151d9de07046195459401cff63f4c6985e302-1080x720.avif"
+        },
+        "linkUrl": "/cabins",
+        "title": "The Collection"
+      },
+      {
+        "_key": "c2",
+        "_type": "object",
+        "description": "From chef's kitchens to high-speed wifi, we've curated every detail to make your stay effortless.",
+        "icon": "Wind",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8e122c058a0e4ac891821cc96a361ebb6b82b88c-1080x720-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8e122c058a0e4ac891821cc96a361ebb6b82b88c-1080x720.avif"
+        },
+        "linkUrl": "/comfort",
+        "title": "Comfort & Ease"
+      },
+      {
+        "_key": "c3",
+        "_type": "object",
+        "description": "Spaces designed for connection. Large dining tables, fire pits, and game rooms for making memories.",
+        "icon": "Users",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e7fbe6123fee00465f25c74dc47d9004280b08a5-500x500-jpg",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/e7fbe6123fee00465f25c74dc47d9004280b08a5-500x500.jpg"
+        },
+        "linkUrl": "/gather",
+        "title": "Gather Together"
+      },
+      {
+        "_key": "c4",
+        "_type": "object",
+        "description": "Hiking trails, alpine lakes, and hidden waterfalls await just minutes from your doorstep.",
+        "icon": "Mountain",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a408b119d3d919212188257c4c2500593aeeae1b-765x685-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a408b119d3d919212188257c4c2500593aeeae1b-765x685.avif"
+        },
+        "linkUrl": "/beyond",
+        "title": "Explore Nature"
+      }
+    ],
+    "ctaSection": {
+      "backgroundImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4014eb811749eca36e55c9750a8b4a5333cd1f26-1600x1200-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/4014eb811749eca36e55c9750a8b4a5333cd1f26-1600x1200.avif"
+      },
+      "primaryButtonLink": "/cabins",
+      "primaryButtonText": "Book Your Stay",
+      "secondaryButtonLink": "/family",
+      "secondaryButtonText": "Become a Member",
+      "subtitle": "Join our family of travelers and experience the difference of a true luxury retreat.",
+      "title": "Ready to Escape?"
+    },
+    "experiences": {
+      "items": [
+        {
+          "_key": "e1",
+          "_type": "object",
+          "category": "Adventure",
+          "description": "A quiet cove just a short walk from the house.",
+          "icon": "Fish",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-bf8aeb16d94a5f0fba3fdfebd16b4147c416833f-612x407-jpg",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bf8aeb16d94a5f0fba3fdfebd16b4147c416833f-612x407.jpg"
+          },
+          "title": "Anglers Haven"
+        },
+        {
+          "_key": "e2",
+          "_type": "object",
+          "category": "Relaxation",
+          "description": "Swimming, kayaking, or simply enjoying family fun by the water.",
+          "icon": "Anchor",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-460dd219a8eca16866826c4d73a81fe89e5f6cde-2355x1239-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/460dd219a8eca16866826c4d73a81fe89e5f6cde-2355x1239.avif"
+          },
+          "title": "Lake Activities"
+        },
+        {
+          "_key": "e3",
+          "_type": "object",
+          "category": "Tranquility",
+          "description": "Peaceful moments fishing by the lake or reading on the dock.",
+          "icon": "Fish",
+          "image": {
+            "_type": "image",
+            "asset": {
+              "_ref": "image-9c5bc16771375ee94ba8a733262dba93582bd37d-2000x1000-avif",
+              "_type": "reference"
+            },
+            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9c5bc16771375ee94ba8a733262dba93582bd37d-2000x1000.avif"
+          },
+          "title": "Rest & Relaxation"
+        }
+      ],
+      "subtitle": "Whether you seek adrenaline-pumping adventure or serene nature walks, our location offers endless opportunities to explore.",
+      "title": "Curated Experiences",
+      "viewAllLink": "/beyond",
+      "viewAllText": "View All Activities"
+    },
+    "hero": {
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-852dc7bb39c4f4b209343cea30ef6d052fe21627-836x627-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/852dc7bb39c4f4b209343cea30ef6d052fe21627-836x627.avif"
+      },
+      "subtitle": "Lake Cabin Experience",
+      "title": "East Pointe"
+    },
+    "immersiveSection": {
+      "body": "Step outside and immerse yourself in the breathtaking landscapes that surround our properties. Hiking trails, alpine lakes, and hidden waterfalls await just minutes from your doorstep.",
+      "label": "The Surroundings",
+      "linkText": "Discover the Area",
+      "linkUrl": "/beyond",
+      "mapImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-37e4d55981f6b2a09952496723704ed7a216e318-4096x3080-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
+      },
+      "title": "Beyond the Cabin"
+    },
+    "locationSection": {
+      "body": "East Pointe is strategically located in the heart of Missouri's beautiful countryside. A perfect escape that feels worlds away, yet conveniently close to major hubs.",
+      "distances": [
+        {
+          "_key": "d1",
+          "_type": "object",
+          "destination": "Downtown Kansas City",
+          "icon": "Car",
+          "time": "35 Mins"
+        },
+        {
+          "_key": "d2",
+          "_type": "object",
+          "destination": "St. Louis",
+          "icon": "Car",
+          "time": "2.5 Hours"
+        },
+        {
+          "_key": "d3",
+          "_type": "object",
+          "destination": "MCI Airport",
+          "icon": "Plane",
+          "time": "40 Mins"
+        },
+        {
+          "_key": "d4",
+          "_type": "object",
+          "destination": "Truman Sports Complex",
+          "icon": "Car",
+          "time": "32 Mins"
+        },
+        {
+          "_key": "d5",
+          "_type": "object",
+          "destination": "Warrensburg",
+          "icon": "Car",
+          "time": "25 Mins"
+        },
+        {
+          "_key": "d6",
+          "_type": "object",
+          "destination": "Powell Gardens",
+          "icon": "Car",
+          "time": "15 Mins"
+        }
+      ],
+      "label": "The Location",
+      "locationAddress": "Odessa, Missouri 64076",
+      "locationName": "Lake Lafayette",
+      "title": "Nestled in Nature"
+    },
+    "philosophy": {
+      "body": "Welcome to EastPointe At EastPointe, the land, the environment, and our faith in GOD mean everything to us. Our cabins are intentionally built using reclaimed and recycled wood and materials. This rustic style is by design. We believe there is beauty in imperfection. While you're here, take time to slow down. Walk the roads, visit the lake, and enjoy the peaceful surroundings. Most of all, we hope your time here brings you peace, rest, and a chance to reconnect with what matters most. Thank you for being part of the EastPointe story.",
+      "highlightedText": "perfect lake escape",
+      "label": "Our Philosophy",
+      "linkText": "Explore Our Philosophy",
+      "linkUrl": "/cabins",
+      "title": "Discover the perfect lake escape"
+    },
+    "testimonialsSection": {
+      "title": "Guest Stories"
+    }
+  },
+  {
+    "_createdAt": "2026-06-26T17:44:14Z",
+    "_id": "membershipPage",
+    "_rev": "voupnMNE9rrQS0V5SKRjkH",
+    "_type": "membershipPage",
+    "_updatedAt": "2026-06-26T17:44:14Z",
+    "hero": {
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-460dd219a8eca16866826c4d73a81fe89e5f6cde-2355x1239-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/460dd219a8eca16866826c4d73a81fe89e5f6cde-2355x1239.avif"
+      },
+      "subtitle": "Join our exclusive community of nature lovers and luxury seekers.",
+      "title": "Membership"
+    },
+    "leftPanel": {
+      "benefits": [
+        "Priority booking access 6 months in advance",
+        "10% off all stays, year-round",
+        "Complimentary late check-out",
+        "Exclusive invitations to community events"
+      ],
+      "body": "Members enjoy exclusive perks, priority booking windows, and discounted rates across all our luxury properties.",
+      "label": "The Inner Circle",
+      "quote": "East Pointe isn't just a place to stay; it's a place to belong.",
+      "title": "Why Join East Pointe?"
+    },
+    "rightPanel": {
+      "body": "We are currently accepting a limited number of new families into the East Pointe community. To ensure the privacy and quality of our retreats, we handle all applications personally.",
+      "steps": [
+        {
+          "_key": "step1",
+          "_type": "object",
+          "description": "Contact our team via email or phone to express your interest.",
+          "title": "Inquire"
+        },
+        {
+          "_key": "step2",
+          "_type": "object",
+          "description": "We'll schedule a brief call to discuss your preferences.",
+          "title": "Connect"
+        },
+        {
+          "_key": "step3",
+          "_type": "object",
+          "description": "Receive your digital membership card and booking codes.",
+          "title": "Welcome"
+        }
+      ],
+      "title": "Become a Member"
+    }
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:42Z",
+    "_id": "tqY0hcWpl0HjKxHYiBk5RC",
+    "_rev": "9wv3c53RQI1aqnVOhDVDQK",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:06:44Z",
+    "baths": 2,
+    "bedrooms": "3 Bedrooms",
+    "bookingLink": "https://evolve.com/vacation-rentals/us/mo/odessa/562679",
+    "description": "Built w/ Recycled Materials | Relax Fireside | Day Trip to Kansas City | Easy Access to I-70. Discover the ideal blend of comfort and convenience in Odessa! This 3-bedroom, 2-bath vacation rental cabin offers a serene setting for your group's next visit to the Kansas City area. Plus, you'll be just a skip and a jump from nearby major highways, making trips to KC for game day and family fun a breeze.",
+    "features": [
+      "Built w/ Recycled Materials",
+      "Private deck w/ outdoor seating",
+      "Private fire pit",
+      "Kitchen (stove/oven, fridge, microwave)",
+      "Flat-screen TV",
+      "Central A/C & heating",
+      "Driveway parking (3 vehicles)",
+      "Easy Access to I-70"
+    ],
+    "images": [
+      {
+        "_key": "image_2aakmv",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bed151d9de07046195459401cff63f4c6985e302-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bed151d9de07046195459401cff63f4c6985e302-1080x720.avif"
+      },
+      {
+        "_key": "image_cnnda",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f31f32238cdccf75ca0983e01e8f7fa65876135a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f31f32238cdccf75ca0983e01e8f7fa65876135a-1080x720.avif"
+      },
+      {
+        "_key": "image_6efjjr",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9540a991f92a81e79c13f0b0e38424df0f2c4395-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9540a991f92a81e79c13f0b0e38424df0f2c4395-1080x720.avif"
+      },
+      {
+        "_key": "image_yd9ekk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bd8107c54e8398d808eb08d495435d38a7e6717e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bd8107c54e8398d808eb08d495435d38a7e6717e-1080x720.avif"
+      },
+      {
+        "_key": "image_dq4p37",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5e04a0e7af121c5ae60dac4b5d9aba8fd7538623-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5e04a0e7af121c5ae60dac4b5d9aba8fd7538623-1080x720.avif"
+      },
+      {
+        "_key": "image_fpg8ti",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-42ce4ed0fa03c3436d2b647e425484e43e5a23d4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/42ce4ed0fa03c3436d2b647e425484e43e5a23d4-1080x720.avif"
+      },
+      {
+        "_key": "image_ti5ty",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ba2f2b7ddb81d03136ba39381e0d8023c5f927de-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ba2f2b7ddb81d03136ba39381e0d8023c5f927de-1080x720.avif"
+      },
+      {
+        "_key": "image_ygh7fl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9c1b8354487d894270a497be60961370c6c04b14-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9c1b8354487d894270a497be60961370c6c04b14-1080x720.avif"
+      },
+      {
+        "_key": "image_emnipf",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b6bde42480716a049b70b9b0bfd3779d423bc088-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b6bde42480716a049b70b9b0bfd3779d423bc088-1080x720.avif"
+      },
+      {
+        "_key": "image_5od01c",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-27d64800e1827575a89a4a9e379fd6290ecf8024-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/27d64800e1827575a89a4a9e379fd6290ecf8024-1080x720.avif"
+      },
+      {
+        "_key": "image_s2zz9m",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ab869cda3cc7f0215ddd668bacddd54a57541cc6-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ab869cda3cc7f0215ddd668bacddd54a57541cc6-1080x720.avif"
+      },
+      {
+        "_key": "image_8p5pdr",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-109dbefd2ca8a861f9215660a6cdbecfd2c55861-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/109dbefd2ca8a861f9215660a6cdbecfd2c55861-1080x720.avif"
+      },
+      {
+        "_key": "image_khoi2l",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-50932371de83f2b035d0527b111e98e63b3c70b4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/50932371de83f2b035d0527b111e98e63b3c70b4-1080x720.avif"
+      },
+      {
+        "_key": "image_j7enzp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c1fa2760096b5ee46da3aa2dc5585cd96423bed7-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c1fa2760096b5ee46da3aa2dc5585cd96423bed7-1080x720.avif"
+      },
+      {
+        "_key": "image_2os3ef",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1cb39ec245bbbb780ea1870c729ee93d2d219ff2-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/1cb39ec245bbbb780ea1870c729ee93d2d219ff2-1080x720.avif"
+      },
+      {
+        "_key": "image_sbi2q8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bb84a294a5946b32e37cbec14c8477c3b6ce2779-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bb84a294a5946b32e37cbec14c8477c3b6ce2779-1080x720.avif"
+      },
+      {
+        "_key": "image_bldtu5",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f899939cc60b54c441cb997cf16417c97a908faf-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f899939cc60b54c441cb997cf16417c97a908faf-1080x720.avif"
+      },
+      {
+        "_key": "image_ba62pi",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-01c4a681335d48617aa6146e806a36d09e803e06-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/01c4a681335d48617aa6146e806a36d09e803e06-1080x720.avif"
+      },
+      {
+        "_key": "image_j4b3y",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0f2970fd69050828b4a8acd6c4590b8b6afeff59-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0f2970fd69050828b4a8acd6c4590b8b6afeff59-1080x720.avif"
+      },
+      {
+        "_key": "image_3j98w",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a9ba57de6681cb2334e1c2d1f594c6df9c270761-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a9ba57de6681cb2334e1c2d1f594c6df9c270761-1080x720.avif"
+      },
+      {
+        "_key": "image_1xa0y",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b2f037bcabcba2f8e9987d0b62fca6505c0b5bc4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b2f037bcabcba2f8e9987d0b62fca6505c0b5bc4-1080x720.avif"
+      },
+      {
+        "_key": "image_nmauwa",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c894dbb4857cbd054c77512bc55989323e7be92e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c894dbb4857cbd054c77512bc55989323e7be92e-1080x720.avif"
+      },
+      {
+        "_key": "image_aup1i",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0feb69658c0970a5359112a288d2710c81cf58ed-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0feb69658c0970a5359112a288d2710c81cf58ed-1080x720.avif"
+      },
+      {
+        "_key": "image_wgsa9a",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bc174479a816ca043b6d8f5c9edb8951277fc09d-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bc174479a816ca043b6d8f5c9edb8951277fc09d-1080x720.avif"
+      },
+      {
+        "_key": "image_dnseho",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-97ef4eb452bcf1b21364370d08f9432c742e225e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/97ef4eb452bcf1b21364370d08f9432c742e225e-1080x720.avif"
+      },
+      {
+        "_key": "image_rb8a5n",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7141d840200039e5648e74e9175fcfa1a859d0c3-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7141d840200039e5648e74e9175fcfa1a859d0c3-1080x720.avif"
+      },
+      {
+        "_key": "image_818osp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-94ff694f197d037c332141c8116c7c8d4c124303-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/94ff694f197d037c332141c8116c7c8d4c124303-1080x720.avif"
+      },
+      {
+        "_key": "image_qakhgk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7399be104ac6a8fd47e9a01be3727336c8b5c59d-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7399be104ac6a8fd47e9a01be3727336c8b5c59d-1080x720.avif"
+      },
+      {
+        "_key": "image_gxigss",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4deaff5e77fdd0646c4a0a82da92899f66681b08-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/4deaff5e77fdd0646c4a0a82da92899f66681b08-1080x720.avif"
+      },
+      {
+        "_key": "image_fwt10q",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5fe8c597c7d6057ecade63a718e67efac4cdb297-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5fe8c597c7d6057ecade63a718e67efac4cdb297-1080x720.avif"
+      },
+      {
+        "_key": "image_5h7zn",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8ac86d7f2f6b20eb36792db50fdb00b554354837-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8ac86d7f2f6b20eb36792db50fdb00b554354837-1080x720.avif"
+      },
+      {
+        "_key": "image_ht1yhp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-51bec12a16764fb2d28187e4ff082cd618eefdea-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/51bec12a16764fb2d28187e4ff082cd618eefdea-1080x720.avif"
+      },
+      {
+        "_key": "image_r309qb",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ab81cf3eec547b613268660e504ec1118e35d235-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ab81cf3eec547b613268660e504ec1118e35d235-1080x720.avif"
+      }
+    ],
+    "location": "Odessa, MO",
+    "name": "Aspire",
+    "order": 3,
+    "sleepingArrangements": [
+      {
+        "_key": "sa1",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 1"
+      },
+      {
+        "_key": "sa2",
+        "bed": "1 Full Bed",
+        "room": "Bedroom 2"
+      },
+      {
+        "_key": "sa3",
+        "bed": "3 Twin Beds",
+        "room": "Bedroom 3"
+      }
+    ],
+    "sleeps": "7",
+    "slug": {
+      "_type": "slug",
+      "current": "aspire"
+    },
+    "status": "Available"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:45Z",
+    "_id": "voupnMNE9rrQS0V5SJj6vb",
+    "_rev": "voupnMNE9rrQS0V5SJj6uH",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:45Z",
+    "description": "Central air conditioning to keep you cool during warm lakeside summers.",
+    "icon": "Wind",
+    "order": 2,
+    "title": "Cooling"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:46Z",
+    "_id": "voupnMNE9rrQS0V5SJj76B",
+    "_rev": "voupnMNE9rrQS0V5SJj74r",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:46Z",
+    "description": "Stay connected with reliable high-speed internet coverage throughout the cabin.",
+    "icon": "Wifi",
+    "order": 3,
+    "title": "High Speed Wifi"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:49Z",
+    "_id": "voupnMNE9rrQS0V5SJj7bv",
+    "_rev": "voupnMNE9rrQS0V5SJj7ab",
+    "_type": "amenity",
+    "_updatedAt": "2026-06-26T09:16:49Z",
+    "description": "Entertainment ready with built-in streaming options for movie nights.",
+    "icon": "Tv",
+    "order": 6,
+    "title": "Smart TVs"
+  },
+  {
+    "_createdAt": "2026-06-26T09:16:58Z",
+    "_id": "voupnMNE9rrQS0V5SJj8JZ",
+    "_rev": "voupnMNE9rrQS0V5SJj8IF",
+    "_type": "testimonial",
+    "_updatedAt": "2026-06-26T09:16:58Z",
+    "location": "Charlotte, NC",
+    "name": "Michael & David",
+    "order": 2,
+    "quote": "East Pointe thought of everything. From the pre-stocked firewood to the locally sourced coffee awaiting our arrival. Pure magic.",
+    "rating": 5
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:41Z",
+    "_id": "voupnMNE9rrQS0V5SJr8nJ",
+    "_rev": "9wv3c53RQI1aqnVOhDVTRO",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:08:28Z",
+    "baths": 1,
+    "bedrooms": "Studio",
+    "bookingLink": "https://evolve.com/vacation-rentals/us/mo/odessa/552306",
+    "description": "Pet Friendly w/ Fee | BBQ Ready | Forest Views. Seeking a peaceful lakeside getaway? Look no further than this vacation rental in Odessa! With a cozy interior, furnished deck, and beautiful wooded setting just a short walk from Lake Lafayette, this 1-bath studio cabin has everything needed for a memorable couple's retreat or rejuvenating solo escape.",
+    "features": [
+      "Furnished deck w/ outdoor dining",
+      "Charcoal grill",
+      "Kitchenette (fridge, microwave, air fryer)",
+      "Pet friendly (w/ fee)",
+      "Step-free access",
+      "Lake Lafayette access on-site",
+      "Flat-screen TV & Board games",
+      "Driveway parking (2 vehicles)"
+    ],
+    "images": [
+      {
+        "_key": "image_z6umb",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-baf160655ad7c9ad3df67bd2895e2a41c628d8e7-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/baf160655ad7c9ad3df67bd2895e2a41c628d8e7-1080x720.avif"
+      },
+      {
+        "_key": "image_89sn5f",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c3dd7ad5a9231c2b02f5b751c2780ae9aecd8491-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c3dd7ad5a9231c2b02f5b751c2780ae9aecd8491-1080x720.avif"
+      },
+      {
+        "_key": "image_n5qy6",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a57d8f525439820b9a858d3d4dceedced928a488-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a57d8f525439820b9a858d3d4dceedced928a488-1080x720.avif"
+      },
+      {
+        "_key": "image_2vx3tg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fdc17d7dca9e60ce1211e9360541fd9af6578b98-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/fdc17d7dca9e60ce1211e9360541fd9af6578b98-1080x720.avif"
+      },
+      {
+        "_key": "image_w27wkq",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1b4b51d9a8a623be434f5baa9fad701ba2a0dacf-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/1b4b51d9a8a623be434f5baa9fad701ba2a0dacf-1080x720.avif"
+      },
+      {
+        "_key": "image_jv8xy",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ce8e17750cab084aae739c41db4d2f46eb7362e4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ce8e17750cab084aae739c41db4d2f46eb7362e4-1080x720.avif"
+      },
+      {
+        "_key": "image_0wint6",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-14eb1bcf32b584fb2694ba0703d5c84209c38e68-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/14eb1bcf32b584fb2694ba0703d5c84209c38e68-1080x720.avif"
+      },
+      {
+        "_key": "image_08a1hp",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c43f2fa14bc92f0d2a90cf6fc099393f9505048e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c43f2fa14bc92f0d2a90cf6fc099393f9505048e-1080x720.avif"
+      },
+      {
+        "_key": "image_tu61c",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-be1cc4da23194222e47647764309eb64274828d9-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/be1cc4da23194222e47647764309eb64274828d9-1080x720.avif"
+      },
+      {
+        "_key": "image_3oxkc",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8f3e893c9ff98a6aedbc6dccb39825bd11fec1fe-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8f3e893c9ff98a6aedbc6dccb39825bd11fec1fe-1080x720.avif"
+      },
+      {
+        "_key": "image_gfq6gy",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7f6bc47d84cb705fb55d96e98b7447bc4c6685f6-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7f6bc47d84cb705fb55d96e98b7447bc4c6685f6-1080x720.avif"
+      },
+      {
+        "_key": "image_x993lr",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fd15d69b8afec73876fb00189df8d039d41276b6-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/fd15d69b8afec73876fb00189df8d039d41276b6-1080x720.avif"
+      },
+      {
+        "_key": "image_w50af",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-60f76c744ba835e7863627e235d7d4ffdb159bc4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/60f76c744ba835e7863627e235d7d4ffdb159bc4-1080x720.avif"
+      },
+      {
+        "_key": "image_v6wvd8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3794510f380afa1951468bb2d12838cea5686564-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3794510f380afa1951468bb2d12838cea5686564-1080x720.avif"
+      },
+      {
+        "_key": "image_rjvao",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2ac1d2140e35920b5520c436f5c2c70d5184f54e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/2ac1d2140e35920b5520c436f5c2c70d5184f54e-1080x720.avif"
+      },
+      {
+        "_key": "image_i0fnce",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a70b97f0db09eba93150853c701bb94d08cab5a5-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a70b97f0db09eba93150853c701bb94d08cab5a5-1080x720.avif"
+      },
+      {
+        "_key": "image_xov4q",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9e3a409713f809f6c2171af2648f6287ae26ca9e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9e3a409713f809f6c2171af2648f6287ae26ca9e-1080x720.avif"
+      },
+      {
+        "_key": "image_xfuylk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-580631e24df953f8a33c451b20d292ebb7df774e-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/580631e24df953f8a33c451b20d292ebb7df774e-1080x720.avif"
+      },
+      {
+        "_key": "image_0gdzl7",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4f394f00c64c7f85e3c9a2637c6a370d668c0714-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/4f394f00c64c7f85e3c9a2637c6a370d668c0714-1080x720.avif"
+      },
+      {
+        "_key": "image_ur3xw",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-189ae02b28a897e1cd0135b6b1d0ba74b5e72961-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/189ae02b28a897e1cd0135b6b1d0ba74b5e72961-1080x720.avif"
+      },
+      {
+        "_key": "image_x3jupc",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-35ce8b253852fc2b33adad9bf02bd36d0b9d5091-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/35ce8b253852fc2b33adad9bf02bd36d0b9d5091-1080x720.avif"
+      },
+      {
+        "_key": "image_a94bxh",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c0e05edc7c96fbd40b0f15fc154f7896f9a62926-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c0e05edc7c96fbd40b0f15fc154f7896f9a62926-1080x720.avif"
+      },
+      {
+        "_key": "image_bezvul",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-931a8a1b0549e822ad6fe37ad3e724647883edb4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/931a8a1b0549e822ad6fe37ad3e724647883edb4-1080x720.avif"
+      }
+    ],
+    "location": "Odessa, MO",
+    "name": "Aston Harbor",
+    "order": 2,
+    "sleepingArrangements": [
+      {
+        "_key": "sa1",
+        "bed": "1 Queen Bed",
+        "room": "Studio"
+      }
+    ],
+    "sleeps": "2",
+    "slug": {
+      "_type": "slug",
+      "current": "aston-harbor"
+    },
+    "status": "Available"
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:43Z",
+    "_id": "voupnMNE9rrQS0V5SJr8sb",
+    "_rev": "S5poxwXylF3o9ymdwhlHnR",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:11:27Z",
+    "baths": 1.5,
+    "bedrooms": "2 Bedrooms",
+    "bookingLink": "https://evolve.com/vacation-rentals/us/mo/odessa/552307",
+    "description": "Private Fire Pit w/ Seating | BBQ Ready | Outdoor Dining w/ Lake View. Lakefront relaxation awaits at this Odessa vacation rental. Whether you're looking to fish, explore Historic Downtown shops and restaurants, or simply enjoy the tranquil countryside setting, this 2-bedroom, 1.5-bath cabin is perfect for you and your crew. When you're ready to venture out, be sure to visit the Powell Gardens or catch a race just up the road at I-70 Speedway.",
+    "features": [
+      "Furnished porch w/ outdoor dining",
+      "Wood-burning fire pit",
+      "Kitchenette (stovetop, fridge, microwave, air fryer)",
+      "Flat-screen TV & Board games",
+      "Charcoal grill",
+      "Driveway parking (5 vehicles)",
+      "Lake Lafayette access on-site",
+      "Single-story (5 steps access)",
+      "No pets allowed"
+    ],
+    "images": [
+      {
+        "_key": "image_xmnzr",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8a7841440a9199e1c34b853ab0f958285b95de78-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8a7841440a9199e1c34b853ab0f958285b95de78-1080x720.avif"
+      },
+      {
+        "_key": "image_g4tyt",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-386fa149e80a1725883146018523aff46fb1dc5a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/386fa149e80a1725883146018523aff46fb1dc5a-1080x720.avif"
+      },
+      {
+        "_key": "image_l0az1n",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9ac6189f62affc5a0cafd5e9016cb9ab0507af8c-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9ac6189f62affc5a0cafd5e9016cb9ab0507af8c-3840x2560.avif"
+      },
+      {
+        "_key": "image_xx6nco",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fc54e2e1b6435edb628708696cb168c5065b6bd5-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/fc54e2e1b6435edb628708696cb168c5065b6bd5-3840x2560.avif"
+      },
+      {
+        "_key": "image_t4joef",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-64312cedd222450226ca9fc5f7a405425be6fb06-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/64312cedd222450226ca9fc5f7a405425be6fb06-1080x720.avif"
+      },
+      {
+        "_key": "image_309so9",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-381d66bc6b59f0edb1f70887b24d85257cad4a1e-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/381d66bc6b59f0edb1f70887b24d85257cad4a1e-3840x2560.avif"
+      },
+      {
+        "_key": "image_y832rm",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4e56f80ab96038e5d516e6005fa25d2d9f6ed2fe-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/4e56f80ab96038e5d516e6005fa25d2d9f6ed2fe-3840x2560.avif"
+      },
+      {
+        "_key": "image_utzfd8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6a78e573366c131641c669f5f4a2e6a68098068b-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/6a78e573366c131641c669f5f4a2e6a68098068b-3840x2560.avif"
+      },
+      {
+        "_key": "image_wy0xjn",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5cf1e8c918cb23b3ff137f944765e04a83cc71f0-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5cf1e8c918cb23b3ff137f944765e04a83cc71f0-3840x2560.avif"
+      },
+      {
+        "_key": "image_mh203e",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8860223ac7419f55837ac5ab59b9caef18c74fd3-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8860223ac7419f55837ac5ab59b9caef18c74fd3-3840x2560.avif"
+      },
+      {
+        "_key": "image_plj32g",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-614cc57eb41ed89f89745d660da72b92f589de38-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/614cc57eb41ed89f89745d660da72b92f589de38-3840x2560.avif"
+      },
+      {
+        "_key": "image_izi0ar",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-373329d3912e73068c05ee1c106186af5051bdbc-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/373329d3912e73068c05ee1c106186af5051bdbc-3840x2560.avif"
+      },
+      {
+        "_key": "image_1bcmpl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c5eb73dac6e34669e2a9a84be3c39d42f4849830-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c5eb73dac6e34669e2a9a84be3c39d42f4849830-1080x720.avif"
+      },
+      {
+        "_key": "image_n6ddin",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bc7fab1451f791fb39bd67a52623623af27c1560-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bc7fab1451f791fb39bd67a52623623af27c1560-3840x2560.avif"
+      },
+      {
+        "_key": "image_17b3kn",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-edab2b8c53e72f63eab1730206dc77e2eb969e29-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/edab2b8c53e72f63eab1730206dc77e2eb969e29-3840x2560.avif"
+      },
+      {
+        "_key": "image_n49p8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6d8accce5b99e06477b46ccd945243224e9cb7d8-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/6d8accce5b99e06477b46ccd945243224e9cb7d8-3840x2560.avif"
+      },
+      {
+        "_key": "image_f2i2nm",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-abb50596b4564f7323217155b511e2f4e46c04a1-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/abb50596b4564f7323217155b511e2f4e46c04a1-3840x2560.avif"
+      },
+      {
+        "_key": "image_xhq2xq",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-54c291978acee2edde46d541a7ae4871aa5d2aba-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/54c291978acee2edde46d541a7ae4871aa5d2aba-3840x2560.avif"
+      },
+      {
+        "_key": "image_4rsb7h",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c81604cecaaf9f5b801990c007c83b4769f1717c-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c81604cecaaf9f5b801990c007c83b4769f1717c-3840x2560.avif"
+      },
+      {
+        "_key": "image_2e2qvl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-58d9d2f32bfa7762bb127b7b57cb7b268c1daa00-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/58d9d2f32bfa7762bb127b7b57cb7b268c1daa00-3840x2560.avif"
+      },
+      {
+        "_key": "image_9rfuk5c",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ccf2544407367254f36909131d80b77837853bdc-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ccf2544407367254f36909131d80b77837853bdc-3840x2560.avif"
+      },
+      {
+        "_key": "image_0x877",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7f6382af28233c8b49d063fdc5acf1d67ff7fc51-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7f6382af28233c8b49d063fdc5acf1d67ff7fc51-3840x2560.avif"
+      },
+      {
+        "_key": "image_hb264b",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-18c0798e66a93d420f34d3d28aa146063cb4a22d-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/18c0798e66a93d420f34d3d28aa146063cb4a22d-1080x720.avif"
+      },
+      {
+        "_key": "image_jl67kd",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6c161de1cebbbc67c7294edc969e5138d8f4ea8f-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/6c161de1cebbbc67c7294edc969e5138d8f4ea8f-1080x720.avif"
+      },
+      {
+        "_key": "image_ij2uvn",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ea1598974805655801c10f6176cb9747030c826d-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ea1598974805655801c10f6176cb9747030c826d-1080x720.avif"
+      },
+      {
+        "_key": "image_brl4q3",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-288f89b7e1cd477cf1930ec28507663447d1e45c-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/288f89b7e1cd477cf1930ec28507663447d1e45c-1080x720.avif"
+      },
+      {
+        "_key": "image_jx3gh",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-ffcd8f144a2808720c8dd09d259be203f28aec0a-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/ffcd8f144a2808720c8dd09d259be203f28aec0a-1080x720.avif"
+      },
+      {
+        "_key": "image_l83wq9",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-eadfebba560de0b7bdd886bdc52fd8ad4196b4d3-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/eadfebba560de0b7bdd886bdc52fd8ad4196b4d3-1080x720.avif"
+      },
+      {
+        "_key": "image_8hhjer",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f81d1f8abb1d949c15b354c516380cf4875ceb7c-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f81d1f8abb1d949c15b354c516380cf4875ceb7c-1080x720.avif"
+      },
+      {
+        "_key": "image_aw4mkw",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2dc89433a43c4491cbfa0e5138a0f8a579f346cc-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/2dc89433a43c4491cbfa0e5138a0f8a579f346cc-1080x720.avif"
+      },
+      {
+        "_key": "image_8p55v8",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7404723d83f9679fa58f9574d24ca4f42fed6e95-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7404723d83f9679fa58f9574d24ca4f42fed6e95-1080x720.avif"
+      },
+      {
+        "_key": "image_l2sumd",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f0296c1854f03caccbc7de9e5a6c1f07251c212c-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f0296c1854f03caccbc7de9e5a6c1f07251c212c-1080x720.avif"
+      },
+      {
+        "_key": "image_4e1dg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-738d223841e8f070f8d2ad16b919d234abcdd493-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/738d223841e8f070f8d2ad16b919d234abcdd493-1080x720.avif"
+      },
+      {
+        "_key": "image_smk4g",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-959c7ed7b7b1cc7b04487a599237cfe2969b99b4-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/959c7ed7b7b1cc7b04487a599237cfe2969b99b4-1080x720.avif"
+      },
+      {
+        "_key": "image_o9l3jf",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a9bd4b1bd2a4f0f75b8da704877d1acf494d560b-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a9bd4b1bd2a4f0f75b8da704877d1acf494d560b-1080x720.avif"
+      },
+      {
+        "_key": "image_xd2ye",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-404d21f24fffe1c9a3766d6c58736fca4fac5d2c-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/404d21f24fffe1c9a3766d6c58736fca4fac5d2c-1080x720.avif"
+      },
+      {
+        "_key": "image_bqph27",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e594248d0c64e87e09aa76a19e77ee360f75a6a1-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/e594248d0c64e87e09aa76a19e77ee360f75a6a1-1080x720.avif"
+      },
+      {
+        "_key": "image_l9p7oe",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d28323932023bc8c71760b3b45d31eacfe3a0710-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/d28323932023bc8c71760b3b45d31eacfe3a0710-1080x720.avif"
+      },
+      {
+        "_key": "image_rbdf1",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-30185a1400b4c68bc8f9f8285b92f54eee80ae16-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/30185a1400b4c68bc8f9f8285b92f54eee80ae16-1080x720.avif"
+      },
+      {
+        "_key": "image_wyesy",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3c7718e3597befbbd0333c05ceb82eb4cea98875-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3c7718e3597befbbd0333c05ceb82eb4cea98875-1080x720.avif"
+      },
+      {
+        "_key": "image_0ef138",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-77e30d75986e81bd3c337481ea504ea9780a0f04-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/77e30d75986e81bd3c337481ea504ea9780a0f04-1080x720.avif"
+      },
+      {
+        "_key": "image_vqb7do",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-997d8ccc72b014e06ab8c3d0c88985aed3007541-1080x720-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/997d8ccc72b014e06ab8c3d0c88985aed3007541-1080x720.avif"
+      }
+    ],
+    "location": "Odessa, MO",
+    "name": "Cedar Pointe",
+    "order": 4,
+    "sleepingArrangements": [
+      {
+        "_key": "sa1",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 1"
+      },
+      {
+        "_key": "sa2",
+        "bed": "2 Twin Beds",
+        "room": "Bedroom 2"
+      },
+      {
+        "_key": "sa3",
+        "bed": "1 Sleeper Sofa",
+        "room": "Living Room"
+      }
+    ],
+    "sleeps": "6",
+    "slug": {
+      "_type": "slug",
+      "current": "cedar-pointe"
+    },
+    "status": "Available"
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:44Z",
+    "_id": "voupnMNE9rrQS0V5SJr91r",
+    "_rev": "S5poxwXylF3o9ymdwhmWmK",
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T11:13:20Z",
+    "baths": 1,
+    "bedrooms": "2 Bedrooms",
+    "bookingLink": "https://evolve.com/vacation-rentals/us/mo/odessa/552309",
+    "description": "Pet Friendly w/ Fee | Furnished Outdoor Space | BBQ Ready | 4 Mi to Downtown. Escape the city buzz at 'Byrd's Nest' — a vacation rental in Odessa. In addition to its peaceful setting just steps from Lake Lafayette, this charming 2-bedroom, 1-bath cabin offers easy access to local hot spots like Historic Downtown Odessa, Powell Gardens, I-70 Speedway, and more. When you're not out exploring, be sure to spend some time around the fire pit or head inside to enjoy a relaxing game night.",
+    "features": [
+      "Furnished patio w/ outdoor dining",
+      "Private fire pit",
+      "Kitchenette (fridge, stovetop, microwave, air fryer)",
+      "Pet friendly (w/ fee)",
+      "Flat-screen TV, Fireplace",
+      "Lake Lafayette access on-site",
+      "Driveway parking (5 vehicles)",
+      "Single-story cabin (1 step access)"
+    ],
+    "images": [
+      {
+        "_key": "image_oq7k7",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d22ccca1586f296f21ce0af9c70b2e3135425ee9-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/d22ccca1586f296f21ce0af9c70b2e3135425ee9-3840x2560.avif"
+      },
+      {
+        "_key": "image_834utl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-096e15a35f4ddf3a0892abde05dddfc4d8b4fe53-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/096e15a35f4ddf3a0892abde05dddfc4d8b4fe53-3840x2560.avif"
+      },
+      {
+        "_key": "image_wj1oml",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4ea74c395356d3ff3b4da8f74a9f87e381497c8f-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/4ea74c395356d3ff3b4da8f74a9f87e381497c8f-3840x2560.avif"
+      },
+      {
+        "_key": "image_fqy5kj",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bec4fc927f37f7f74396995280d7b94843938418-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bec4fc927f37f7f74396995280d7b94843938418-3840x2560.avif"
+      },
+      {
+        "_key": "image_00ni4m",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-be601398d2833c9b9ffeaef87f918a98dfd33d35-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/be601398d2833c9b9ffeaef87f918a98dfd33d35-3840x2560.avif"
+      },
+      {
+        "_key": "image_757eum",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a7b40bd2ba27a468d84b9f6089601df08755e09c-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a7b40bd2ba27a468d84b9f6089601df08755e09c-3840x2560.avif"
+      },
+      {
+        "_key": "image_on65rb",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-38a82ca1e3de783d01b35414fcbdf7172fe5f53e-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/38a82ca1e3de783d01b35414fcbdf7172fe5f53e-3840x2560.avif"
+      },
+      {
+        "_key": "image_66n4c",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b0660659ddee5a008ab28885fc8d739efef008ec-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b0660659ddee5a008ab28885fc8d739efef008ec-3840x2560.avif"
+      },
+      {
+        "_key": "image_v69vbg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-da0ba11c5e91ba5832934d67ed8b7ab066407b29-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/da0ba11c5e91ba5832934d67ed8b7ab066407b29-3840x2560.avif"
+      },
+      {
+        "_key": "image_esr3pg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5f24cf89b664d9104074ac21b315c7d4b5b22d84-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5f24cf89b664d9104074ac21b315c7d4b5b22d84-3840x2560.avif"
+      },
+      {
+        "_key": "image_96uc4",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-09975400eb19cdeaff44ae172a657157491847cd-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/09975400eb19cdeaff44ae172a657157491847cd-3840x2560.avif"
+      },
+      {
+        "_key": "image_ctcnji",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b2b40852b0230480cfba2110860a155e240a094b-3840x2560-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b2b40852b0230480cfba2110860a155e240a094b-3840x2560.avif"
+      },
+      {
+        "_key": "image_kf0bb",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-206f6ec511a79b93d1f5d908f7a81e0708efdfe3-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/206f6ec511a79b93d1f5d908f7a81e0708efdfe3-1080x720.jpg"
+      },
+      {
+        "_key": "image_d7h0x4",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f55c2b8ff0d9ca2ad68bd2d0d9ef5866cf88f4d1-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f55c2b8ff0d9ca2ad68bd2d0d9ef5866cf88f4d1-1080x720.jpg"
+      },
+      {
+        "_key": "image_vonqk5",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e0fcc11c628f55c21996cb1000dd42a70190fc3-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/2e0fcc11c628f55c21996cb1000dd42a70190fc3-1080x720.jpg"
+      },
+      {
+        "_key": "image_xkyhmq",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6924072781419c3b1341376768a38b36f411db8a-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/6924072781419c3b1341376768a38b36f411db8a-1080x720.jpg"
+      },
+      {
+        "_key": "image_p64wch",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b63e0c350b1acc5d2b887b61ab8d929df7b29642-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b63e0c350b1acc5d2b887b61ab8d929df7b29642-1080x720.jpg"
+      },
+      {
+        "_key": "image_d51f6b",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f5719e5f9fb170708ec2b4e34419244334eae807-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/f5719e5f9fb170708ec2b4e34419244334eae807-1080x720.jpg"
+      },
+      {
+        "_key": "image_2pr8jk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-35208be2557a23eb01a400459c2069f441db2564-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/35208be2557a23eb01a400459c2069f441db2564-1080x720.jpg"
+      },
+      {
+        "_key": "image_ls44fg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8f33a1630e63c5513f5633c67a590d0636b57c63-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/8f33a1630e63c5513f5633c67a590d0636b57c63-1080x720.jpg"
+      },
+      {
+        "_key": "image_idakpm",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0238886afa38ff02028b53fea3213c75e0519636-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0238886afa38ff02028b53fea3213c75e0519636-1080x720.jpg"
+      },
+      {
+        "_key": "image_nhqr9l",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d73d04b6cf5165ee108ee84e2da26667dad8033d-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/d73d04b6cf5165ee108ee84e2da26667dad8033d-1080x720.jpg"
+      },
+      {
+        "_key": "image_85gpol",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-543b6bc7b7b96ab246e9dfbe947490ffaf939dd3-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/543b6bc7b7b96ab246e9dfbe947490ffaf939dd3-1080x720.jpg"
+      },
+      {
+        "_key": "image_jlomc9",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b582a7977a1112c1896093d0a470ff1f38f08b43-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/b582a7977a1112c1896093d0a470ff1f38f08b43-1080x720.jpg"
+      },
+      {
+        "_key": "image_gmfp6n",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0f3018a28234647f3c5f2b13c52fa02ea4df515d-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0f3018a28234647f3c5f2b13c52fa02ea4df515d-1080x720.jpg"
+      },
+      {
+        "_key": "image_sbohm",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-37beedad0e4f53da530d142e35fce17aeed55687-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37beedad0e4f53da530d142e35fce17aeed55687-1080x720.jpg"
+      },
+      {
+        "_key": "image_zbgdu6",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fba4639e5f783957a82cd06dcbf415e4d13af5d9-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/fba4639e5f783957a82cd06dcbf415e4d13af5d9-1080x720.jpg"
+      },
+      {
+        "_key": "image_wxmvg",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3bde338c8c6ba3e4534616414e22eb358065ceab-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/3bde338c8c6ba3e4534616414e22eb358065ceab-1080x720.jpg"
+      },
+      {
+        "_key": "image_sywkle7",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-82ab58553710dca0d57fe5051745b629127ba271-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/82ab58553710dca0d57fe5051745b629127ba271-1080x720.jpg"
+      },
+      {
+        "_key": "image_6rtch",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1524314fa585953dc518c9c5d5057df483ae63a5-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/1524314fa585953dc518c9c5d5057df483ae63a5-1080x720.jpg"
+      },
+      {
+        "_key": "image_1y20hk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-695abdb66c4d032525e09509a8a4454cdfd69ef7-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/695abdb66c4d032525e09509a8a4454cdfd69ef7-1080x720.jpg"
+      },
+      {
+        "_key": "image_nhj4dk",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-10c25039873f98e111285c2d4e58b8b12e0b07be-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/10c25039873f98e111285c2d4e58b8b12e0b07be-1080x720.jpg"
+      },
+      {
+        "_key": "image_m3fpgl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fc8e4c092d94e54d514598737abef2a96b590929-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/fc8e4c092d94e54d514598737abef2a96b590929-1080x720.jpg"
+      },
+      {
+        "_key": "image_0vkqfa",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-bb9441036a4abe978edd57a2d18a15f0c88b3874-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/bb9441036a4abe978edd57a2d18a15f0c88b3874-1080x720.jpg"
+      },
+      {
+        "_key": "image_tzmt0q",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7d0d179c366c4bd2d61c4c74fa0d37b278249e2d-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/7d0d179c366c4bd2d61c4c74fa0d37b278249e2d-1080x720.jpg"
+      },
+      {
+        "_key": "image_yl2nl",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c7521aa3240e0073a8e108a3640a1643af9a39f9-1080x720-jpg",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/c7521aa3240e0073a8e108a3640a1643af9a39f9-1080x720.jpg"
+      }
+    ],
+    "location": "Odessa, MO",
+    "name": "Byrd's Nest",
+    "order": 5,
+    "sleepingArrangements": [
+      {
+        "_key": "sa1",
+        "bed": "1 Queen Bed",
+        "room": "Bedroom 1"
+      },
+      {
+        "_key": "sa2",
+        "bed": "2 Twin Beds",
+        "room": "Bedroom 2"
+      }
+    ],
+    "sleeps": "4",
+    "slug": {
+      "_type": "slug",
+      "current": "byrds-nest"
+    },
+    "status": "Available"
+  },
+  {
+    "_createdAt": "2026-06-26T11:01:45Z",
+    "_id": "voupnMNE9rrQS0V5SJr979",
+    "_rev": "voupnMNE9rrQS0V5SK1PEV",
+    "_system": {
+      "base": {
+        "id": "voupnMNE9rrQS0V5SJr979",
+        "rev": "voupnMNE9rrQS0V5SJr95p"
+      }
+    },
+    "_type": "cabin",
+    "_updatedAt": "2026-06-26T13:27:03Z",
+    "baths": 2.5,
+    "bedrooms": "4 Bedrooms + Upstairs Loft (4 beds)",
+    "description": "Expansive views with plenty of room for everyone. Coming soon to our collection, this property will redefine lakeside comfort for large groups.",
+    "location": "Odessa, MO",
+    "name": "HarborView",
+    "order": 6,
+    "sleeps": "10 - 13",
+    "slug": {
+      "_type": "slug",
+      "current": "harbor-view"
+    },
+    "sqFt": "3,600",
+    "status": "Coming Soon"
+  }
+]

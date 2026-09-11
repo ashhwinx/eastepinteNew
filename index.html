@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/avif" href="/logo.avif" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="East Pointe: Luxury lake cabin experience and community nestled in nature near Kansas City. Book your perfect getaway today."
+    />
+    <title>East Pointe | Lake Cabin Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2c1e1a", // Dark Brown (Header)
+              secondary: "#a67c52", // Golden Brown (Headings)
+              accent: "#d4c5b0", // Light Tan/Beige
+              cream: "#f5f0e6", // Main Background Beige
+              earth: "#4a3728", // Earthy Brown
+            },
+            fontFamily: {
+              serif: [
+                "Georgia",
+                "Cambria",
+                "Times New Roman",
+                "Times",
+                "serif",
+              ],
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+            animation: {
+              "fade-in": "fadeIn 1.5s ease-out forwards",
+              "fade-in-fast": "fadeIn 0.2s ease-out forwards",
+              "fade-in-up": "fadeInUp 1.2s ease-out forwards",
+              "fade-in-down": "fadeInDown 1.2s ease-out forwards",
+              "slide-in-right": "slideInRight 1s ease-out forwards",
+              float: "float 6s ease-in-out infinite",
+              "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+              marquee: "marquee 30s linear infinite",
+              "marquee-reverse": "marqueeReverse 30s linear infinite",
+              "spin-slow": "spin 12s linear infinite",
+              "scale-in":
+                "scaleIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards",
+            },
+            keyframes: {
+              fadeIn: {
+                "0%": { opacity: "0" },
+                "100%": { opacity: "1" },
+              },
+              fadeInUp: {
+                "0%": { opacity: "0", transform: "translateY(40px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              fadeInDown: {
+                "0%": { opacity: "0", transform: "translateY(-40px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              slideInRight: {
+                "0%": { opacity: "0", transform: "translateX(-40px)" },
+                "100%": { opacity: "1", transform: "translateX(0)" },
+              },
+              float: {
+                "0%, 100%": { transform: "translateY(0)" },
+                "50%": { transform: "translateY(-15px)" },
+              },
+              marquee: {
+                "0%": { transform: "translateX(0%)" },
+                "100%": { transform: "translateX(-100%)" },
+              },
+              marqueeReverse: {
+                "0%": { transform: "translateX(-100%)" },
+                "100%": { transform: "translateX(0)" },
+              },
+              scaleIn: {
+                "0%": { transform: "scale(0.95)", opacity: "0" },
+                "100%": { transform: "scale(1)", opacity: "1" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="/Home/LandingImage.avif" fetchpriority="high" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        overflow-x: clip;
+        overflow-y: scroll;
+        scrollbar-gutter: stable;
+        width: 100%;
+        max-width: 100%;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        overflow-x: clip;
+        width: 100%;
+        max-width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Georgia", serif;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f5f0e6;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #a67c52;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2c1e1a;
+      }
+      .text-outline {
+        -webkit-text-stroke: 1px currentColor;
+        color: transparent;
+      }
+      .text-outline-white {
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+      }
+      .text-outline-primary {
+        -webkit-text-stroke: 1px #2c1e1a;
+        color: transparent;
+      }
+      .parallax-bg {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
