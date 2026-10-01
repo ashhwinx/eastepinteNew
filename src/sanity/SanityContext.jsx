@@ -61,7 +61,17 @@ const ALL_CONTENT_QUERY = `
     "resolvedUrl": image.asset->url
   },
   "testimonials": *[_type == "testimonial"] | order(order asc),
-  "siteSettings": *[_type == "siteSettings"][0]
+  "siteSettings": *[_type == "siteSettings"][0] {
+    ...,
+    "logo": {
+      ...,
+      "resolvedUrl": logo.asset->url
+    },
+    "favicon": {
+      ...,
+      "resolvedUrl": favicon.asset->url
+    }
+  }
 }
 `;
 

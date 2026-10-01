@@ -2735,9 +2735,15 @@
   {
     "_id": "siteSettings",
     "_type": "siteSettings",
+    "siteTitle": "East Pointe | Lake Cabin Experience",
     "siteName": "East Pointe",
     "tagline": "Lake Cabin Experience",
+    "metaDescription": "East Pointe: Luxury lake cabin experience and community nestled in nature near Kansas City. Book your perfect getaway today.",
     "logo": {
+      "_type": "image",
+      "resolvedUrl": "/logo.avif"
+    },
+    "favicon": {
       "_type": "image",
       "resolvedUrl": "/logo.avif"
     },

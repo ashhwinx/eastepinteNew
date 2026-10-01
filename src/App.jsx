@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Preloader from './components/Preloader';
 import ChatWidget from './components/ChatWidget';
+import DynamicHead from './components/DynamicHead';
 
 // Pages
 import Home from './pages/Home';
@@ -42,6 +43,7 @@ export default function App() {
 
   return (
     <SanityProvider>
+      <DynamicHead />
       {loading && <Preloader onFinish={() => setLoading(false)} />}
       <BrowserRouter>
         <Routes>

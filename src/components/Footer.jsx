@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail } from 'lucide-react';
 import { Instagram, Facebook, Twitter } from './SocialIcons';
-import { getSiteSettings } from '../data/siteContent';
+import { useSiteSettings } from '../data/siteContent';
 
 const navItems = [
   { label: "Home Page", path: "/" },
@@ -14,13 +14,13 @@ const navItems = [
 ];
 
 export default function Footer() {
-  const settings = getSiteSettings();
+  const settings = useSiteSettings();
 
   return (
     <footer className="bg-primary text-cream py-20 border-t border-earth relative overflow-hidden">
       {/* Background watermark */}
       <img
-        src="/logo.avif"
+        src={settings.logo || "/logo.avif"}
         alt=""
         className="absolute bottom-0 right-0 text-white/5 h-[500px] w-[500px] transform translate-x-1/3 translate-y-1/3 pointer-events-none opacity-5 filter invert"
       />
@@ -31,16 +31,16 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-5 group mb-8">
               <img
-                src="/logo.avif"
-                alt="East Pointe Logo"
+                src={settings.logo || "/logo.avif"}
+                alt={`${settings.siteName || 'East Pointe'} Logo`}
                 className="h-10 md:h-12 w-auto object-contain"
               />
               <div className="flex flex-col">
                 <span className="text-xl md:text-2xl font-serif font-bold tracking-widest leading-none text-white">
-                  EAST POINTE
+                  {settings.siteName || "EAST POINTE"}
                 </span>
                 <span className="text-[0.6rem] uppercase tracking-[0.3em] font-medium opacity-70 text-white ml-0.5">
-                  Lake Cabin Experience
+                  {settings.tagline || "Lake Cabin Experience"}
                 </span>
               </div>
             </div>

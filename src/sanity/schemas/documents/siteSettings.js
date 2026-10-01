@@ -5,8 +5,11 @@ export default defineType({
   title: 'Site Settings & Brand',
   type: 'document',
   initialValue: {
+    siteTitle: 'East Pointe | Lake Cabin Experience',
     siteName: 'East Pointe',
     tagline: 'Lake Cabin Experience',
+    metaDescription:
+      'East Pointe: Luxury lake cabin experience and community nestled in nature near Kansas City. Book your perfect getaway today.',
     email: 'nick@eastpointekc.com',
     phone: '+1 (816) 255-8683',
     phoneLink: 'tel:+18162558683',
@@ -27,20 +30,43 @@ export default defineType({
   },
   fields: [
     defineField({
+      name: 'siteTitle',
+      title: 'Browser Tab Title (Meta Title)',
+      description: 'The title displayed in the browser tab and search engines (e.g. "East Pointe | Lake Cabin Experience")',
+      type: 'string',
+    }),
+    defineField({
+      name: 'favicon',
+      title: 'Browser Tab Favicon (Icon)',
+      description: 'Small icon shown next to the title in the browser tab (.png, .ico, .svg, .avif)',
+      type: 'image',
+      options: { hotspot: true },
+    }),
+    defineField({
+      name: 'logo',
+      title: 'Website Logo (Header & Footer)',
+      description: 'Main brand logo shown in the navigation bar and footer',
+      type: 'image',
+      options: { hotspot: true },
+    }),
+    defineField({
       name: 'siteName',
       title: 'Site Name',
+      description: 'Text shown next to the logo (e.g. "EAST POINTE")',
       type: 'string',
     }),
     defineField({
       name: 'tagline',
       title: 'Tagline',
+      description: 'Sub-text under the site name (e.g. "Lake Cabin Experience")',
       type: 'string',
     }),
     defineField({
-      name: 'logo',
-      title: 'Site Logo',
-      type: 'image',
-      options: { hotspot: true },
+      name: 'metaDescription',
+      title: 'SEO Meta Description',
+      description: 'Summary snippet for search engines and social media shares',
+      type: 'text',
+      rows: 3,
     }),
     defineField({
       name: 'email',
@@ -105,8 +131,8 @@ export default defineType({
   ],
   preview: {
     select: {
-      title: 'siteName',
-      subtitle: 'tagline',
+      title: 'siteTitle',
+      subtitle: 'siteName',
       media: 'logo',
     },
   },

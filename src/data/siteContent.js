@@ -25,9 +25,12 @@ export function getDocsByType(type) {
 }
 
 const defaultSettings = {
+  siteTitle: "East Pointe | Lake Cabin Experience",
   siteName: "East Pointe",
   tagline: "Lake Cabin Experience",
   logo: "/logo.avif",
+  favicon: "/logo.avif",
+  metaDescription: "East Pointe: Luxury lake cabin experience and community nestled in nature near Kansas City. Book your perfect getaway today.",
   email: "nick@eastpointekc.com",
   phone: "+1 (816) 255-8683",
   phoneLink: "tel:+18162558683",
@@ -48,15 +51,39 @@ export function getSiteSettings() {
   const cmsSettings = activeDataStore.data?.siteSettings || getDocByType('siteSettings');
   if (!cmsSettings) return defaultSettings;
 
+  const siteTitle = cmsSettings.siteTitle || (
+    cmsSettings.siteName
+      ? `${cmsSettings.siteName} | ${cmsSettings.tagline || 'Lake Cabin Experience'}`
+      : defaultSettings.siteTitle
+  );
+
   return {
     ...defaultSettings,
     ...cmsSettings,
+    siteTitle,
     logo: resolveImage(cmsSettings.logo, defaultSettings.logo),
+    favicon: resolveImage(cmsSettings.favicon, defaultSettings.favicon),
+    metaDescription: cmsSettings.metaDescription || defaultSettings.metaDescription,
     socialLinks: (cmsSettings.socialLinks && cmsSettings.socialLinks.length > 0)
       ? cmsSettings.socialLinks
       : defaultSettings.socialLinks,
   };
 }
+
+export function useSiteSettings() {
+  const [settings, setSettings] = useState(() => getSiteSettings());
+
+  useEffect(() => {
+    setSettings(getSiteSettings());
+    const unsub = activeDataStore.subscribe(() => {
+      setSettings(getSiteSettings());
+    });
+    return unsub;
+  }, []);
+
+  return settings;
+}
+
 
 export const defaultTestimonials = [
   {

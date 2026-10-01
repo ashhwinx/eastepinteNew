@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight } from 'lucide-react';
 import { Instagram, Facebook, Twitter } from './SocialIcons';
-import { getSiteSettings } from '../data/siteContent';
+import { useSiteSettings } from '../data/siteContent';
 
 const navItems = [
   { label: "Home Page", path: "/" },
@@ -17,7 +17,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-  const settings = getSiteSettings();
+  const settings = useSiteSettings();
 
   const isHome = location.pathname === "/";
 
@@ -80,16 +80,16 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" onClick={closeMenu} className="flex items-center gap-5 group relative z-50">
               <img
-                src="/logo.avif"
-                alt="East Pointe Logo"
+                src={settings.logo || "/logo.avif"}
+                alt={`${settings.siteName || 'East Pointe'} Logo`}
                 className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
               <div className="flex flex-col">
                 <span className="text-xl md:text-2xl font-serif font-bold tracking-widest leading-none text-white">
-                  EAST POINTE
+                  {settings.siteName || "EAST POINTE"}
                 </span>
                 <span className="text-[0.6rem] uppercase tracking-[0.3em] font-medium opacity-70 text-white ml-0.5">
-                  Lake Cabin Experience
+                  {settings.tagline || "Lake Cabin Experience"}
                 </span>
               </div>
             </Link>
