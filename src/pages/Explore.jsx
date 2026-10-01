@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import { getExplorePage, getSiteSettings } from '../data/siteContent';
+import { getExplorePage, getSiteSettings, resolveImage } from '../data/siteContent';
+import { getIcon } from '../components/iconMap';
 import {
   Trophy,
   Landmark,
@@ -67,6 +68,19 @@ export default function Explore() {
   const quoteSection = pageData?.quoteSection;
   const discoverSection = pageData?.discoverSection;
 
+  const rawDiscover = pageData?.discoverCards || discoverSection?.cards;
+  const displayDiscoverCards =
+    rawDiscover && rawDiscover.length > 0
+      ? rawDiscover.map((c) => ({
+          category: c.category || "Attraction",
+          title: c.title,
+          description: c.description,
+          image: resolveImage(c.image, "/Explore/ChiefsAndRoyals.avif"),
+          icon: typeof c.icon === 'string' ? getIcon(c.icon) : (c.icon || Trophy),
+          isWide: Boolean(c.isWide)
+        }))
+      : defaultDiscoverCards;
+
   useEffect(() => {
     document.title = "Things to Do in Odessa & Kansas City | East Pointe";
   }, []);
@@ -80,7 +94,7 @@ export default function Explore() {
           hero?.subtitle ||
           "Your ideal lake getaway, just a quick drive from the heart of Kansas City."
         }
-        image="/Explore/ExploreHero.avif"
+        image={resolveImage(hero?.image, "/Explore/ExploreHero.avif")}
         height="large"
       />
 
@@ -156,7 +170,7 @@ export default function Explore() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {defaultDiscoverCards.map((card, idx) => {
+          {displayDiscoverCards.map((card, idx) => {
             const IconComp = card.icon;
             const containerClass = card.isWide
               ? "group relative overflow-hidden rounded-sm h-[400px] shadow-lg md:col-span-2 lg:col-span-1 lg:col-start-1 lg:col-end-3"

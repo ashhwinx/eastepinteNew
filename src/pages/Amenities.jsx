@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
-import { getAmenitiesPage, getSiteSettings } from '../data/siteContent';
+import { getAmenitiesPage, getAmenities, getSiteSettings, resolveImage } from '../data/siteContent';
+import { getIcon } from '../components/iconMap';
 import {
   Car,
   Wind,
@@ -88,10 +89,20 @@ const defaultAmenities = [
 
 export default function Amenities() {
   const pageData = getAmenitiesPage();
+  const rawAmenities = getAmenities();
   const settings = getSiteSettings();
 
   const hero = pageData?.hero;
   const intro = pageData?.intro;
+
+  const displayAmenities =
+    rawAmenities && rawAmenities.length > 0
+      ? rawAmenities.map((a) => ({
+          icon: typeof a.icon === 'string' ? getIcon(a.icon) : (a.icon || Car),
+          title: a.title,
+          desc: a.description || a.desc || ""
+        }))
+      : defaultAmenities;
 
   useEffect(() => {
     document.title = "Cabin Amenities & Guest Perks | East Pointe";
@@ -103,7 +114,7 @@ export default function Amenities() {
       <Hero
         title={hero?.title || "Guest Perks"}
         subtitle={hero?.subtitle || "We've thought of everything, so you don't have to."}
-        image="/Amenities/AmenitiesHero.jpeg"
+        image={resolveImage(hero?.image, "/Amenities/AmenitiesHero.jpeg")}
         height="large"
       />
 
@@ -127,7 +138,7 @@ export default function Amenities() {
       {/* 3. 13 GUEST PERKS GRID */}
       <section className="py-20 container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {defaultAmenities.map((item, idx) => {
+          {displayAmenities.map((item, idx) => {
             const IconComp = item.icon;
             return (
               <div

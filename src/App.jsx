@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Outlet, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -13,7 +13,9 @@ import Community from './pages/Community';
 import Explore from './pages/Explore';
 import Membership from './pages/Membership';
 import Contact from './pages/Contact';
-import Studio from './pages/Studio';
+import { SanityProvider } from './sanity/SanityContext';
+
+const Studio = React.lazy(() => import('./pages/Studio'));
 
 function Layout() {
   const location = useLocation();
@@ -39,7 +41,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   return (
-    <>
+    <SanityProvider>
       {loading && <Preloader onFinish={() => setLoading(false)} />}
       <BrowserRouter>
         <Routes>
@@ -56,9 +58,23 @@ export default function App() {
             <Route path="membership" element={<Membership />} />
             <Route path="contact" element={<Contact />} />
           </Route>
-          <Route path="studio/*" element={<Studio />} />
+          <Route
+            path="studio/*"
+            element={
+              <Suspense
+                fallback={
+                  <div className="min-h-screen bg-[#101112] text-stone-300 flex flex-col items-center justify-center gap-4 font-sans">
+                    <div className="w-10 h-10 border-2 border-accent border-t-transparent rounded-full animate-spin" />
+                    <span className="text-xs uppercase tracking-[0.25em] text-stone-400">Loading East Pointe Studio...</span>
+                  </div>
+                }
+              >
+                <Studio />
+              </Suspense>
+            }
+          />
         </Routes>
       </BrowserRouter>
-    </>
+    </SanityProvider>
   );
 }

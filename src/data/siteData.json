@@ -2,7 +2,6 @@
   {
     "_createdAt": "2026-06-26T04:11:51Z",
     "_id": "2023db2a-18bf-45f9-8b52-89881f98fc3a",
-    "_rev": "9wv3c53RQI1aqnVOhCAUVQ",
     "_type": "testimonial",
     "_updatedAt": "2026-06-26T04:21:35Z",
     "location": "Sioux Falls, South Dakota",
@@ -14,13 +13,6 @@
   {
     "_createdAt": "2026-07-26T15:53:16Z",
     "_id": "6b2b8699-4087-416f-a0e1-7434175dc97a",
-    "_rev": "mCHMwpLXxxJA1GIf8kD2KN",
-    "_system": {
-      "base": {
-        "id": "6b2b8699-4087-416f-a0e1-7434175dc97a",
-        "rev": "90yEAhvqNgokEgbU2WjA2p"
-      }
-    },
     "_type": "testimonial",
     "_updatedAt": "2026-07-30T06:23:04Z",
     "location": "Ft. Worth, TX",
@@ -32,7 +24,6 @@
   {
     "_createdAt": "2026-06-26T09:16:48Z",
     "_id": "9wv3c53RQI1aqnVOhD5HmD",
-    "_rev": "9wv3c53RQI1aqnVOhD5HiQ",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:48Z",
     "description": "Luxury bedding with extra pillows and blankets for the ultimate night's sleep.",
@@ -43,7 +34,6 @@
   {
     "_createdAt": "2026-06-26T09:16:50Z",
     "_id": "9wv3c53RQI1aqnVOhD5IsR",
-    "_rev": "9wv3c53RQI1aqnVOhD5Ioe",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:50Z",
     "description": "Cozy central heating to keep you warm during crisp autumns and winters.",
@@ -54,7 +44,6 @@
   {
     "_createdAt": "2026-06-26T09:16:52Z",
     "_id": "9wv3c53RQI1aqnVOhD5JMl",
-    "_rev": "9wv3c53RQI1aqnVOhD5JIy",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:52Z",
     "description": "Seamless arrival experience with a secure, personalized door code.",
@@ -65,7 +54,6 @@
   {
     "_createdAt": "2026-06-26T09:16:54Z",
     "_id": "9wv3c53RQI1aqnVOhD5KHc",
-    "_rev": "9wv3c53RQI1aqnVOhD5KDp",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:54Z",
     "description": "These are fun and keep you engaged throughout the evening.",
@@ -76,7 +64,6 @@
   {
     "_createdAt": "2026-06-26T09:16:55Z",
     "_id": "9wv3c53RQI1aqnVOhD5Ki9",
-    "_rev": "9wv3c53RQI1aqnVOhD5KeM",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:55Z",
     "description": "Each location has a BBQ grill... Because this is Kansas City!",
@@ -87,7 +74,6 @@
   {
     "_createdAt": "2026-06-26T09:16:57Z",
     "_id": "9wv3c53RQI1aqnVOhD5LK3",
-    "_rev": "9wv3c53RQI1aqnVOhD5LGG",
     "_type": "testimonial",
     "_updatedAt": "2026-06-26T09:16:57Z",
     "location": "Atlanta, GA",
@@ -99,7 +85,6 @@
   {
     "_createdAt": "2026-06-26T09:16:44Z",
     "_id": "S5poxwXylF3o9ymdwhLII3",
-    "_rev": "S5poxwXylF3o9ymdwhLIEU",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:44Z",
     "description": "Ample parking available directly on the premises for your convenience.",
@@ -110,7 +95,6 @@
   {
     "_createdAt": "2026-06-26T09:16:47Z",
     "_id": "S5poxwXylF3o9ymdwhLIo8",
-    "_rev": "S5poxwXylF3o9ymdwhLIkZ",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:47Z",
     "description": "Fully stocked culinary spaces where guests can prepare their own gourmet meals.",
@@ -121,7 +105,6 @@
   {
     "_createdAt": "2026-06-26T09:16:51Z",
     "_id": "S5poxwXylF3o9ymdwhLJRL",
-    "_rev": "S5poxwXylF3o9ymdwhLJNm",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:51Z",
     "description": "Equipped with coffee makers and pour-over options for your morning ritual.",
@@ -132,7 +115,6 @@
   {
     "_createdAt": "2026-06-26T09:16:53Z",
     "_id": "S5poxwXylF3o9ymdwhLJxQ",
-    "_rev": "S5poxwXylF3o9ymdwhLJtr",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:53Z",
     "description": "Extra easy checkout experience.",
@@ -143,7 +125,6 @@
   {
     "_createdAt": "2026-06-26T09:16:56Z",
     "_id": "S5poxwXylF3o9ymdwhLKTV",
-    "_rev": "S5poxwXylF3o9ymdwhLKPw",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:56Z",
     "description": "Available on request. We have docks and shorelines available for you to cast your line.",
@@ -154,7 +135,6 @@
   {
     "_createdAt": "2026-06-26T09:16:59Z",
     "_id": "S5poxwXylF3o9ymdwhLLHP",
-    "_rev": "S5poxwXylF3o9ymdwhLLDq",
     "_type": "testimonial",
     "_updatedAt": "2026-06-26T09:16:59Z",
     "location": "Nashville, TN",
@@ -166,7 +146,6 @@
   {
     "_createdAt": "2026-06-26T11:01:39Z",
     "_id": "S5poxwXylF3o9ymdwhhom9",
-    "_rev": "voupnMNE9rrQS0V5SJrVoN",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:04:04Z",
     "baths": 3,
@@ -551,7 +530,6 @@
   {
     "_createdAt": "2026-06-26T11:01:46Z",
     "_id": "S5poxwXylF3o9ymdwhhq9h",
-    "_rev": "S5poxwXylF3o9ymdwhhq68",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:01:46Z",
     "baths": 0,
@@ -565,12 +543,19 @@
       "_type": "slug",
       "current": "treehaus"
     },
-    "status": "Coming Soon"
+    "status": "Coming Soon",
+    "images": [
+      {
+        "_key": "feat-1",
+        "_type": "image",
+        "resolvedUrl": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=800",
+        "alt": "TreeHaus Card Photo"
+      }
+    ]
   },
   {
     "_createdAt": "2026-06-26T11:01:47Z",
     "_id": "S5poxwXylF3o9ymdwhhqxb",
-    "_rev": "S5poxwXylF3o9ymdwhhqu2",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:01:47Z",
     "baths": 0,
@@ -584,12 +569,19 @@
       "_type": "slug",
       "current": "rochaus"
     },
-    "status": "Coming Soon"
+    "status": "Coming Soon",
+    "images": [
+      {
+        "_key": "feat-1",
+        "_type": "image",
+        "resolvedUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800",
+        "alt": "RocHaus Card Photo"
+      }
+    ]
   },
   {
     "_createdAt": "2026-06-26T17:46:53Z",
     "_id": "amenitiesPage",
-    "_rev": "S5poxwXylF3o9ymdwjKIkF",
     "_type": "amenitiesPage",
     "_updatedAt": "2026-06-26T17:46:53Z",
     "hero": {
@@ -613,7 +605,6 @@
   {
     "_createdAt": "2026-06-26T17:50:52Z",
     "_id": "cabinPage",
-    "_rev": "voupnMNE9rrQS0V5SKVwhP",
     "_type": "cabinPage",
     "_updatedAt": "2026-06-26T17:50:52Z",
     "comeSeeUs": {
@@ -645,12 +636,21 @@
         "_type": "reference"
       },
       "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
+    },
+    "groundsMap": {
+      "mapImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-37e4d55981f6b2a09952496723704ed7a216e318-4096x3080-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
+      }
     }
   },
   {
     "_createdAt": "2026-06-26T11:17:15Z",
     "_id": "communityPage",
-    "_rev": "9wv3c53RQI1aqnVOhF1VZI",
     "_type": "communityPage",
     "_updatedAt": "2026-06-26T17:31:12Z",
     "concierge": {
@@ -659,48 +659,65 @@
         "Custom layout planning",
         "Vendor recommendations (Catering, Florals, etc.)",
         "Group accommodation discounts"
-      ]
+      ],
+      "image": {
+        "_type": "image",
+        "resolvedUrl": "/Community/Corporate.avif"
+      }
     },
     "eventCards": [
       {
         "_key": "item1",
-        "_type": "eventCard",
+        "title": "Intimate Weddings",
         "description": "Say \"I do\" with the lake as your witness. Our grounds provide a stunning, natural cathedral for ceremonies up to 50 guests.",
+        "icon": "Heart",
         "features": [
           "Lakeside Ceremonies",
           "Bridal Cabin Packages",
           "Photography Access"
         ],
-        "icon": "Heart",
-        "title": "Intimate Weddings"
+        "image": {
+          "_type": "image",
+          "resolvedUrl": "/Community/Wedding.avif"
+        }
       },
       {
         "_key": "item2",
-        "_type": "eventCard",
+        "title": "Family Reunions",
         "description": "Reconnect without distractions. Book multiple cabins to keep the family close while giving everyone their own private space.",
+        "icon": "Users",
         "features": [
           "Communal Fire Pits",
           "Large Group Dining",
           "Safe Kids Play Areas"
         ],
-        "icon": "Users",
-        "title": "Family Reunions"
+        "image": {
+          "_type": "image",
+          "resolvedUrl": "/Community/Reunion.avif"
+        }
       },
       {
         "_key": "item3",
-        "_type": "eventCard",
+        "title": "Corporate Retreats",
         "description": "Step away from the boardroom. Our inspiring environment fosters creativity, team bonding, and strategic thinking.",
+        "icon": "Briefcase",
         "features": [
           "High-Speed Wifi",
           "Team Building Activities",
           "Catering Partners"
         ],
-        "icon": "Briefcase",
-        "title": "Corporate Retreats"
+        "image": {
+          "_type": "image",
+          "resolvedUrl": "/Community/Corporate.avif"
+        }
       }
     ],
     "hero": {
-      "subtitle": "Create lasting memories in the heart of nature."
+      "subtitle": "Create lasting memories in the heart of nature.",
+      "image": {
+        "_type": "image",
+        "resolvedUrl": "/Community/CommunityHero.avif"
+      }
     },
     "intro": {
       "body": "East Pointe isn't just for quiet getaways; it's a vibrant backdrop for your most important milestones. From intimate lakeside weddings to productive corporate retreats, our grounds offer the perfect blend of privacy and community.",
@@ -711,13 +728,6 @@
   {
     "_createdAt": "2026-06-26T00:44:12Z",
     "_id": "explorePage",
-    "_rev": "S5poxwXylF3o9ymdwjFr0p",
-    "_system": {
-      "base": {
-        "id": "explorePage",
-        "rev": "voupnMNE9rrQS0V5SJHxMt"
-      }
-    },
     "_type": "explorePage",
     "_updatedAt": "2026-06-26T17:39:44Z",
     "discoverSection": {
@@ -733,8 +743,7 @@
             "asset": {
               "_ref": "image-0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720-avif",
               "_type": "reference"
-            },
-            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720.avif"
+            }
           },
           "isWide": false,
           "title": "Chiefs & Royals"
@@ -750,8 +759,7 @@
             "asset": {
               "_ref": "image-33a729a631b037f10f4bfa88210083093e502797-2500x1406-avif",
               "_type": "reference"
-            },
-            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/33a729a631b037f10f4bfa88210083093e502797-2500x1406.avif"
+            }
           },
           "isWide": false,
           "title": "Union Station & Museums"
@@ -767,8 +775,7 @@
             "asset": {
               "_ref": "image-573e9dc846049b1e059fa76208dd04a74250af8a-1440x960-avif",
               "_type": "reference"
-            },
-            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/573e9dc846049b1e059fa76208dd04a74250af8a-1440x960.avif"
+            }
           },
           "isWide": false,
           "title": "Power & Light District"
@@ -784,8 +791,7 @@
             "asset": {
               "_ref": "image-9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189-avif",
               "_type": "reference"
-            },
-            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189.avif"
+            }
           },
           "isWide": false,
           "title": "Country Club Plaza"
@@ -801,8 +807,7 @@
             "asset": {
               "_ref": "image-5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333-webp",
               "_type": "reference"
-            },
-            "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333.webp"
+            }
           },
           "isWide": true,
           "title": "Powell Gardens"
@@ -843,22 +848,109 @@
         "asset": {
           "_ref": "image-a9d0163ca73640855848dbda93e885b34aa3f9ff-1920x1144-jpg",
           "_type": "reference"
+        }
+      },
+      "quote": "Experience the tranquility of lakeside living while maintaining easy access to the city's excitement.",
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a9d0163ca73640855848dbda93e885b34aa3f9ff-1920x1144-jpg",
+          "_type": "reference"
         },
         "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/a9d0163ca73640855848dbda93e885b34aa3f9ff-1920x1144.jpg"
+      }
+    },
+    "discoverCards": [
+      {
+        "_key": "card1",
+        "_type": "object",
+        "category": "Championship City",
+        "description": "Experience the thrill of Arrowhead Stadium or a classic ballgame at Kauffman Stadium. A short drive for an unforgettable game day.",
+        "icon": "Trophy",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/0cdfa744eb0dabac47102a699d6c68fabd376c63-1280x720.avif"
+        },
+        "isWide": false,
+        "title": "Chiefs & Royals"
       },
-      "quote": "Experience the tranquility of lakeside living while maintaining easy access to the city's excitement."
-    }
+      {
+        "_key": "card2",
+        "_type": "object",
+        "category": "History & Arts",
+        "description": "Visit the iconic Union Station, the beautiful Nelson-Atkins Museum of Art, and the National WWI Museum.",
+        "icon": "Building2",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-33a729a631b037f10f4bfa88210083093e502797-2500x1406-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/33a729a631b037f10f4bfa88210083093e502797-2500x1406.avif"
+        },
+        "isWide": false,
+        "title": "Union Station & Museums"
+      },
+      {
+        "_key": "card3",
+        "_type": "object",
+        "category": "Nightlife",
+        "description": "Immerse yourself in the rhythm of the 18th & Vine Jazz District or the vibrant energy of the Power & Light District.",
+        "icon": "Music",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-573e9dc846049b1e059fa76208dd04a74250af8a-1440x960-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/573e9dc846049b1e059fa76208dd04a74250af8a-1440x960.avif"
+        },
+        "isWide": false,
+        "title": "Power & Light District"
+      },
+      {
+        "_key": "card4",
+        "_type": "object",
+        "category": "Shopping & Dining",
+        "description": "Enjoy premier shopping and indulge in legendary Kansas City BBQ at renowned restaurants throughout the city.",
+        "icon": "ShoppingBag",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189-avif",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/9c12f3d84af653e8121f5c968c64b271828a8a3d-2115x1189.avif"
+        },
+        "isWide": false,
+        "title": "Country Club Plaza"
+      },
+      {
+        "_key": "card5",
+        "_type": "object",
+        "category": "Nature & Flora",
+        "description": "Kansas City's premier botanical garden, set on 970 acres of lush meadows and diverse gardens just minutes away.",
+        "icon": "Leaf",
+        "image": {
+          "_type": "image",
+          "asset": {
+            "_ref": "image-5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333-webp",
+            "_type": "reference"
+          },
+          "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/5b594e76218becf7f3ccf6a0fbadcb1cd419671b-2000x1333.webp"
+        },
+        "isWide": true,
+        "title": "Powell Gardens"
+      }
+    ]
   },
   {
     "_createdAt": "2026-06-25T22:15:41Z",
     "_id": "homePage",
-    "_rev": "voupnMNE9rrQS0V5SKWCyX",
-    "_system": {
-      "base": {
-        "id": "homePage",
-        "rev": "S5poxwXylF3o9ymdwgDn8R"
-      }
-    },
     "_type": "homePage",
     "_updatedAt": "2026-06-26T17:58:08Z",
     "amenitiesPreview": {
@@ -1057,7 +1149,15 @@
         },
         "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
       },
-      "title": "Beyond the Cabin"
+      "title": "Beyond the Cabin",
+      "image": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-37e4d55981f6b2a09952496723704ed7a216e318-4096x3080-avif",
+          "_type": "reference"
+        },
+        "resolvedUrl": "https://cdn.sanity.io/images/jlknt03a/production/37e4d55981f6b2a09952496723704ed7a216e318-4096x3080.avif"
+      }
     },
     "locationSection": {
       "body": "East Pointe is strategically located in the heart of Missouri's beautiful countryside. A perfect escape that feels worlds away, yet conveniently close to major hubs.",
@@ -1108,7 +1208,11 @@
       "label": "The Location",
       "locationAddress": "Odessa, Missouri 64076",
       "locationName": "Lake Lafayette",
-      "title": "Nestled in Nature"
+      "title": "Nestled in Nature",
+      "image": {
+        "_type": "image",
+        "resolvedUrl": "/Map.avif"
+      }
     },
     "philosophy": {
       "body": "Welcome to EastPointe At EastPointe, the land, the environment, and our faith in GOD mean everything to us. Our cabins are intentionally built using reclaimed and recycled wood and materials. This rustic style is by design. We believe there is beauty in imperfection. While you're here, take time to slow down. Walk the roads, visit the lake, and enjoy the peaceful surroundings. Most of all, we hope your time here brings you peace, rest, and a chance to reconnect with what matters most. Thank you for being part of the EastPointe story.",
@@ -1125,7 +1229,6 @@
   {
     "_createdAt": "2026-06-26T17:44:14Z",
     "_id": "membershipPage",
-    "_rev": "voupnMNE9rrQS0V5SKRjkH",
     "_type": "membershipPage",
     "_updatedAt": "2026-06-26T17:44:14Z",
     "hero": {
@@ -1180,7 +1283,6 @@
   {
     "_createdAt": "2026-06-26T11:01:42Z",
     "_id": "tqY0hcWpl0HjKxHYiBk5RC",
-    "_rev": "9wv3c53RQI1aqnVOhDVDQK",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:06:44Z",
     "baths": 2,
@@ -1526,7 +1628,6 @@
   {
     "_createdAt": "2026-06-26T09:16:45Z",
     "_id": "voupnMNE9rrQS0V5SJj6vb",
-    "_rev": "voupnMNE9rrQS0V5SJj6uH",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:45Z",
     "description": "Central air conditioning to keep you cool during warm lakeside summers.",
@@ -1537,7 +1638,6 @@
   {
     "_createdAt": "2026-06-26T09:16:46Z",
     "_id": "voupnMNE9rrQS0V5SJj76B",
-    "_rev": "voupnMNE9rrQS0V5SJj74r",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:46Z",
     "description": "Stay connected with reliable high-speed internet coverage throughout the cabin.",
@@ -1548,7 +1648,6 @@
   {
     "_createdAt": "2026-06-26T09:16:49Z",
     "_id": "voupnMNE9rrQS0V5SJj7bv",
-    "_rev": "voupnMNE9rrQS0V5SJj7ab",
     "_type": "amenity",
     "_updatedAt": "2026-06-26T09:16:49Z",
     "description": "Entertainment ready with built-in streaming options for movie nights.",
@@ -1559,7 +1658,6 @@
   {
     "_createdAt": "2026-06-26T09:16:58Z",
     "_id": "voupnMNE9rrQS0V5SJj8JZ",
-    "_rev": "voupnMNE9rrQS0V5SJj8IF",
     "_type": "testimonial",
     "_updatedAt": "2026-06-26T09:16:58Z",
     "location": "Charlotte, NC",
@@ -1571,7 +1669,6 @@
   {
     "_createdAt": "2026-06-26T11:01:41Z",
     "_id": "voupnMNE9rrQS0V5SJr8nJ",
-    "_rev": "9wv3c53RQI1aqnVOhDVTRO",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:08:28Z",
     "baths": 1,
@@ -1817,7 +1914,6 @@
   {
     "_createdAt": "2026-06-26T11:01:43Z",
     "_id": "voupnMNE9rrQS0V5SJr8sb",
-    "_rev": "S5poxwXylF3o9ymdwhlHnR",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:11:27Z",
     "baths": 1.5,
@@ -2245,7 +2341,6 @@
   {
     "_createdAt": "2026-06-26T11:01:44Z",
     "_id": "voupnMNE9rrQS0V5SJr91r",
-    "_rev": "S5poxwXylF3o9ymdwhmWmK",
     "_type": "cabin",
     "_updatedAt": "2026-06-26T11:13:20Z",
     "baths": 1,
@@ -2613,13 +2708,6 @@
   {
     "_createdAt": "2026-06-26T11:01:45Z",
     "_id": "voupnMNE9rrQS0V5SJr979",
-    "_rev": "voupnMNE9rrQS0V5SK1PEV",
-    "_system": {
-      "base": {
-        "id": "voupnMNE9rrQS0V5SJr979",
-        "rev": "voupnMNE9rrQS0V5SJr95p"
-      }
-    },
     "_type": "cabin",
     "_updatedAt": "2026-06-26T13:27:03Z",
     "baths": 2.5,
@@ -2634,6 +2722,50 @@
       "current": "harbor-view"
     },
     "sqFt": "3,600",
-    "status": "Coming Soon"
+    "status": "Coming Soon",
+    "images": [
+      {
+        "_key": "feat-1",
+        "_type": "image",
+        "resolvedUrl": "https://images.unsplash.com/photo-1449156493391-d2cfa28e468b?q=80&w=800",
+        "alt": "HarborView Card Photo"
+      }
+    ]
+  },
+  {
+    "_id": "siteSettings",
+    "_type": "siteSettings",
+    "siteName": "East Pointe",
+    "tagline": "Lake Cabin Experience",
+    "logo": {
+      "_type": "image",
+      "resolvedUrl": "/logo.avif"
+    },
+    "email": "nick@eastpointekc.com",
+    "phone": "+1 (816) 255-8683",
+    "phoneLink": "tel:+18162558683",
+    "address": "Lake Lafayette, Odessa, Missouri 64076",
+    "googleMapsUrl": "https://www.google.com/maps/dir/?api=1&destination=38.9458417,-93.9713331",
+    "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12435.5!2d-93.9713331!3d38.9458417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c169965ad4a83d%3A0x1b1bb606912fe188!2sLake%20Lafayette!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus",
+    "socialLinks": [
+      {
+        "_key": "s1",
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/eastpointekc/"
+      },
+      {
+        "_key": "s2",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com"
+      },
+      {
+        "_key": "s3",
+        "platform": "Twitter",
+        "url": "https://twitter.com"
+      }
+    ],
+    "footerDescription": "Redefining the cabin experience. Where luxury meets wilderness, and guests become family. Experience nature without compromise.",
+    "copyrightText": "East Pointe Collections. All rights reserved.",
+    "officeHours": "Open year round!"
   }
 ]

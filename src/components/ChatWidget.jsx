@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MessageSquare, X, Send, Sparkles } from 'lucide-react';
 import { getSiteSettings } from '../data/siteContent';
 
@@ -8,36 +8,29 @@ export default function ChatWidget() {
     { role: 'assistant', text: "Welcome to East Pointe! I'm your digital concierge. How can I help you with your lake cabin getaway today?" }
   ]);
   const [input, setInput] = useState('');
+  const messagesEndRef = useRef(null);
   const settings = getSiteSettings();
 
   useEffect(() => {
-    // Chatbase embed integration
-    try {
-      if (!window.chatbase || window.chatbase("getState") !== "initialized") {
-        window.chatbase = (...args) => {
-          window.chatbase.q = window.chatbase.q || [];
-          window.chatbase.q.push(args);
-        };
-        window.chatbase = new Proxy(window.chatbase, {
-          get(target, prop) {
-            return prop === "q" ? target.q : (...args) => target(prop, ...args);
-          }
-        });
+    // Clean up any residual Chatbase script or iframes if present
+    const chatbaseScript = document.getElementById("RQAqJS_-EAZ5aNXVTrMa1");
+    if (chatbaseScript) chatbaseScript.remove();
+    const chatbaseIframe = document.querySelector('iframe[src*="chatbase"], iframe[title*="chatbase"], div[id*="chatbase"]');
+    if (chatbaseIframe) chatbaseIframe.remove();
+    if (window.chatbase) {
+      try {
+        delete window.chatbase;
+      } catch {
+        window.chatbase = undefined;
       }
-      const script = document.createElement("script");
-      script.src = "https://www.chatbase.co/embed.min.js";
-      script.id = "RQAqJS_-EAZ5aNXVTrMa1";
-      script.domain = "www.chatbase.co";
-      document.body.appendChild(script);
-
-      return () => {
-        const el = document.getElementById("RQAqJS_-EAZ5aNXVTrMa1");
-        if (el) el.remove();
-      };
-    } catch (e) {
-      console.warn("Chatbase init fallback", e);
     }
   }, []);
+
+  useEffect(() => {
+    if (open) {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [messages, open]);
 
   const handleSend = (e) => {
     e.preventDefault();
@@ -48,15 +41,15 @@ export default function ChatWidget() {
     setInput('');
 
     setTimeout(() => {
-      let reply = "Thank you for reaching out! You can check our available cabins on the Cabins page, or contact Nick directly at nick@eastpointekc.com or call (816) 255-8683.";
+      let reply = `Thank you for reaching out! You can check our available cabins on the Cabins page, or contact Nick directly at ${settings?.email || 'nick@eastpointekc.com'} or call ${settings?.phone || '(816) 255-8683'}.`;
       const lower = userMsg.toLowerCase();
-      if (lower.includes('check in') || lower.includes('time') || lower.includes('hours')) {
+      if (lower.includes('check in') || lower.includes('check-in') || lower.includes('time') || lower.includes('hours')) {
         reply = "Self check-in is available 24/7 via digital smart locks. Standard check-in begins at 4:00 PM and check-out is by 11:00 AM. Members receive complimentary late check-out!";
-      } else if (lower.includes('cabin') || lower.includes('book') || lower.includes('price')) {
+      } else if (lower.includes('cabin') || lower.includes('book') || lower.includes('price') || lower.includes('rate')) {
         reply = "We offer 8 unique cabins including the 5-bedroom Bayview (sleeps 15), Aston Harbor (romantic studio), Aspire (sleeps 7), and Cedar Pointe. Check out our Cabins page for detailed photos and booking links!";
-      } else if (lower.includes('location') || lower.includes('where') || lower.includes('address')) {
+      } else if (lower.includes('location') || lower.includes('where') || lower.includes('address') || lower.includes('map')) {
         reply = "We are located at Lake Lafayette in Odessa, Missouri 64076 — approximately 35 minutes from Downtown Kansas City and 40 minutes from MCI Airport.";
-      } else if (lower.includes('wedding') || lower.includes('reunion') || lower.includes('event')) {
+      } else if (lower.includes('wedding') || lower.includes('reunion') || lower.includes('event') || lower.includes('party')) {
         reply = "We host intimate lakeside weddings up to 50 guests, family reunions across multiple cabins, and corporate retreats. Visit our Community page or contact our team to start planning!";
       }
 
@@ -66,7 +59,7 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Floating Concierge Bubble (shown if external widget iframe isn't active) */}
+      {/* Floating Concierge Chat Widget */}
       <div className="fixed bottom-6 right-6 z-[80]">
         {!open ? (
           <button
@@ -121,6 +114,7 @@ export default function ChatWidget() {
                   </div>
                 </div>
               ))}
+              <div ref={messagesEndRef} />
             </div>
 
             {/* Input Form */}

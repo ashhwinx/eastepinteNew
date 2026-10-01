@@ -8,7 +8,6 @@ import {
   Star,
   Car,
   Plane,
-  MapPin,
   Compass,
   Navigation,
   Sparkles,
@@ -17,19 +16,17 @@ import {
   Users,
   Anchor,
   Fish,
-  UtensilsCrossed,
-  Flame,
   Bed
 } from 'lucide-react';
 import ContactSection from '../components/ContactSection';
-import { getHomePage, getTestimonials, resolveImage } from '../data/siteContent';
+import { useHomePage, useTestimonials, resolveImage } from '../data/siteContent';
 import { getIcon } from '../components/iconMap';
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
   const carouselRef = useRef(null);
-  const homeData = getHomePage();
-  const rawTestimonials = getTestimonials();
+  const homeData = useHomePage();
+  const testimonials = useTestimonials();
 
   const hero = homeData?.hero;
   const philosophy = homeData?.philosophy;
@@ -37,9 +34,11 @@ export default function Home() {
   const immersive = homeData?.immersiveSection;
   const experiences = homeData?.experiences;
   const locationSection = homeData?.locationSection;
+  const standardSection = homeData?.standardSection;
   const cta = homeData?.ctaSection;
+  const testimonialsHeader = homeData?.testimonialsHeader;
 
-  // Fallback / default cards if not directly in Sanity
+  // Fallback / default cards for Collection Carousel
   const defaultCards = [
     {
       id: 1,
@@ -75,7 +74,15 @@ export default function Home() {
     }
   ];
 
-  const cards = carouselItems && carouselItems.length > 0 ? carouselItems : defaultCards;
+  const cards = (carouselItems && carouselItems.length > 0 ? carouselItems : defaultCards).map((c, i) => ({
+    ...c,
+    id: c._key || c.id || i,
+    title: c.title || defaultCards[i % defaultCards.length]?.title,
+    description: c.description || c.desc || defaultCards[i % defaultCards.length]?.desc,
+    linkUrl: c.linkUrl || c.link || defaultCards[i % defaultCards.length]?.linkUrl,
+    image: resolveImage(c.image || c.img, defaultCards[i % defaultCards.length]?.image),
+    icon: typeof c.icon === 'string' ? getIcon(c.icon) : (c.icon || Bed)
+  }));
 
   // Curated experiences
   const defaultExpItems = [
@@ -103,46 +110,46 @@ export default function Home() {
   ];
 
   const expItems = experiences?.items && experiences.items.length > 0
-    ? experiences.items.map(item => ({
+    ? experiences.items.map((item, idx) => ({
         ...item,
-        image: resolveImage(item.image),
-        icon: getIcon(item.icon)
+        image: resolveImage(item.image, defaultExpItems[idx % defaultExpItems.length]?.image),
+        icon: typeof item.icon === 'string' ? getIcon(item.icon) : (item.icon || Sparkles)
       }))
     : defaultExpItems;
 
-  // Testimonials
-  const testimonials = rawTestimonials && rawTestimonials.length > 0
-    ? rawTestimonials
+  // Distances list
+  const distances = locationSection?.distances && locationSection.distances.length > 0
+    ? locationSection.distances.map((dist) => ({
+        ...dist,
+        icon: typeof dist.icon === 'string' ? getIcon(dist.icon) : (dist.icon || Car)
+      }))
     : [
-        {
-          name: "Sarah Jenkins",
-          location: "Atlanta, GA",
-          quote: "The most restorative weekend of my life. The cabin was impeccable, and the silence of the forest was exactly what we needed.",
-          rating: 5
-        },
-        {
-          name: "Michael & David",
-          location: "Charlotte, NC",
-          quote: "East Pointe thought of everything. From the pre-stocked firewood to the locally sourced coffee awaiting our arrival. Pure magic.",
-          rating: 5
-        },
-        {
-          name: "The Thompson Family",
-          location: "Nashville, TN",
-          quote: "We hosted our family reunion here. The communal spaces were perfect for gathering, yet everyone had their own private retreat.",
-          rating: 5
-        }
+        { time: "35 Mins", destination: "Downtown Kansas City", icon: Car },
+        { time: "2.5 Hours", destination: "St. Louis", icon: Car },
+        { time: "40 Mins", destination: "MCI Airport", icon: Plane },
+        { time: "32 Mins", destination: "Truman Sports Complex", icon: Car },
+        { time: "25 Mins", destination: "Warrensburg", icon: Car },
+        { time: "15 Mins", destination: "Powell Gardens", icon: Car }
       ];
 
-  // Distances list
-  const distances = locationSection?.distances || [
-    { time: "35 Mins", destination: "Downtown Kansas City", icon: Car },
-    { time: "2.5 Hours", destination: "St. Louis", icon: Car },
-    { time: "40 Mins", destination: "MCI Airport", icon: Plane },
-    { time: "32 Mins", destination: "Truman Sports Complex", icon: Car },
-    { time: "25 Mins", destination: "Warrensburg", icon: Car },
-    { time: "15 Mins", destination: "Powell Gardens", icon: Car }
+  // The East Pointe Standard Pillars
+  const defaultStandards = [
+    { title: "5-Star Service", description: "24/7 Concierge & Support", icon: Star },
+    { title: "Fresh Air", description: "Secluded Private Locations", icon: Wind },
+    { title: "Secure & Safe", description: "Smart Locks & Security", icon: Shield },
+    { title: "Family Ready", description: "Games, Cribs & More", icon: Users }
   ];
+
+  const standardItems = (standardSection?.items && standardSection.items.length > 0)
+    ? standardSection.items
+    : (homeData?.amenitiesPreview?.items && homeData.amenitiesPreview.items.length > 0)
+      ? homeData.amenitiesPreview.items
+      : defaultStandards;
+
+  const standardPillars = standardItems.map((item, idx) => ({
+    ...item,
+    icon: typeof item.icon === 'string' ? getIcon(item.icon) : (item.icon || defaultStandards[idx % 4]?.icon || Star)
+  }));
 
   // Carousel Infinite Scroll Engine
   useEffect(() => {
@@ -193,21 +200,47 @@ export default function Home() {
     <div className="bg-white">
       {/* 1. HERO SECTION */}
       <div className="relative h-screen w-full overflow-hidden">
-        <img
-          src={resolveImage(hero?.image, "/Home/LandingImage.avif")}
-          alt="East Pointe Luxury Cabins"
-          className="absolute inset-0 w-full h-full object-cover animate-scale-in"
-        />
+        {hero?.backgroundVideoUrl ? (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster={resolveImage(hero?.image, "/Home/LandingImage.avif")}
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src={hero.backgroundVideoUrl} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            src={resolveImage(hero?.image, "/Home/LandingImage.avif")}
+            alt="East Pointe Luxury Cabins"
+            className="absolute inset-0 w-full h-full object-cover animate-scale-in"
+          />
+        )}
         <div className="absolute inset-0 bg-black/30" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/20" />
 
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center text-white px-4 animate-fade-in-up">
+          {hero?.badge && (
+            <span className="text-accent text-xs font-bold uppercase tracking-[0.25em] mb-4 bg-primary/40 backdrop-blur-md px-4 py-1.5 rounded-full border border-accent/20">
+              {hero.badge}
+            </span>
+          )}
           <h1 className="text-5xl md:text-8xl font-serif font-bold mb-6 tracking-tight drop-shadow-lg">
             {hero?.title || "East Pointe"}
           </h1>
           <p className="text-xl md:text-2xl font-light tracking-widest text-stone-100 drop-shadow-md max-w-2xl mx-auto uppercase">
             {hero?.subtitle || "Lake Cabin Experience"}
           </p>
+          {(hero?.ctaText || hero?.ctaLink) && (
+            <Link
+              to={hero?.ctaLink || "/cabins"}
+              className="mt-8 px-10 py-4 bg-accent hover:bg-white text-primary font-bold text-xs uppercase tracking-[0.25em] transition-all duration-300 shadow-2xl hover:shadow-accent/40 hover:-translate-y-0.5"
+            >
+              {hero?.ctaText || "Explore Cabins"}
+            </Link>
+          )}
         </div>
 
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
@@ -219,17 +252,18 @@ export default function Home() {
       <section className="py-24 md:py-32 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <span className="text-accent text-sm font-bold uppercase tracking-[0.2em] mb-6 block">
-            {philosophy?.label || "Our Philosophy"}
+            {philosophy?.badge || philosophy?.label || "Our Philosophy"}
           </span>
           <h2 className="text-3xl md:text-6xl font-serif text-primary mb-10 leading-tight">
-            Discover the{" "}
+            {philosophy?.title || "Discover the"}{" "}
             <span className="italic text-secondary">
               {philosophy?.highlightedText || "perfect lake escape"}
             </span>
           </h2>
           <div className="w-24 h-[1px] bg-secondary mx-auto mb-10" />
           <p className="text-stone-500 text-lg md:text-xl leading-relaxed mb-12 w-full mx-auto px-4">
-            {philosophy?.body ||
+            {philosophy?.description ||
+              philosophy?.body ||
               "Welcome to EastPointe At EastPointe, the land, the environment, and our faith in GOD mean everything to us. Our cabins are intentionally built using reclaimed and recycled wood and materials. This rustic style is by design. We believe there is beauty in imperfection. While you're here, take time to slow down. Walk the roads, visit the lake, and enjoy the peaceful surroundings. Most of all, we hope your time here brings you peace, rest, and a chance to reconnect with what matters most. Thank you for being part of the EastPointe story."}
           </p>
           <Link
@@ -330,20 +364,21 @@ export default function Home() {
             <Compass className="absolute -bottom-20 -right-20 text-white/5 w-96 h-96 pointer-events-none" />
             <div className="relative z-10 max-w-lg">
               <span className="text-accent text-xs font-bold uppercase tracking-widest mb-4 block">
-                {immersive?.label || "The Surroundings"}
+                {immersive?.badge || immersive?.label || "The Surroundings"}
               </span>
               <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
                 {immersive?.title || "Beyond the Cabin"}
               </h2>
               <p className="text-stone-300 text-lg mb-10 leading-relaxed font-light">
-                {immersive?.body ||
+                {immersive?.description ||
+                  immersive?.body ||
                   "Step outside and immerse yourself in the breathtaking landscapes that surround our properties. Hiking trails, alpine lakes, and hidden waterfalls await just minutes from your doorstep."}
               </p>
               <Link
-                to={immersive?.linkUrl || "/beyond"}
+                to={immersive?.ctaLink || immersive?.linkUrl || "/beyond"}
                 className="inline-block px-10 py-4 border border-cream/30 text-cream hover:bg-cream hover:text-primary transition-all duration-300 font-bold uppercase text-xs tracking-[0.2em]"
               >
-                {immersive?.linkText || "Discover the Area"}
+                {immersive?.ctaText || immersive?.linkText || "Discover the Area"}
               </Link>
             </div>
           </div>
@@ -353,6 +388,9 @@ export default function Home() {
       {/* 5. CURATED EXPERIENCES */}
       <section className="py-24 container mx-auto px-6">
         <div className="text-center mb-16">
+          <span className="text-accent text-xs font-bold uppercase tracking-[0.25em] mb-3 block">
+            {experiences?.badge || "Curated Moments"}
+          </span>
           <h2 className="text-3xl md:text-5xl font-serif text-primary mb-6">
             {experiences?.title || "Curated Experiences"}
           </h2>
@@ -403,32 +441,68 @@ export default function Home() {
       </section>
 
       {/* 6. GUEST STORIES (TESTIMONIALS) */}
-      <section className="bg-stone-100 py-24 relative overflow-hidden">
-        <Quote className="absolute top-10 left-10 text-stone-200 w-64 h-64 opacity-50 transform -rotate-12 pointer-events-none" />
+      <section className="bg-[#fbf8f4] py-28 relative overflow-hidden border-y border-stone-200/60">
+        <Quote className="absolute top-10 left-10 text-stone-200/40 w-64 h-64 opacity-50 transform -rotate-12 pointer-events-none" />
         <div className="container mx-auto px-6 relative z-10">
-          <h2 className="text-center text-3xl md:text-4xl font-serif text-primary mb-16">
-            Guest Stories
-          </h2>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="text-accent text-xs font-bold uppercase tracking-[0.25em] mb-3 block">
+              {testimonialsHeader?.badge || "Guest Stories"}
+            </span>
+            <h2 className="text-3xl md:text-5xl font-serif text-primary mb-4">
+              {testimonialsHeader?.title || "Memories Made at East Pointe"}
+            </h2>
+            <p className="text-stone-500 text-base md:text-lg font-light leading-relaxed">
+              {testimonialsHeader?.subtitle ||
+                "Read authentic experiences from travelers, families, and couples who found solace by the lake."}
+            </p>
+            <div className="w-16 h-1 bg-secondary mx-auto mt-6" />
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {testimonials.slice(0, 3).map((t, idx) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {testimonials.map((t, idx) => (
               <div
-                key={idx}
-                className={`bg-white p-10 shadow-sm rounded-sm h-full flex flex-col ${
-                  idx === 1 ? "transform md:-translate-y-4 shadow-md" : ""
+                key={t._id || idx}
+                className={`bg-white p-8 md:p-10 shadow-sm rounded-sm h-full flex flex-col hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1.5 border border-stone-200/60 relative ${
+                  idx === 1 ? "md:-translate-y-2 shadow-md ring-1 ring-accent/30" : ""
                 }`}
               >
-                <div className="flex text-secondary mb-6">
-                  {Array.from({ length: t.rating || 5 }).map((_, starIdx) => (
-                    <Star key={starIdx} size={16} fill="currentColor" />
-                  ))}
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex text-amber-500 gap-1">
+                    {Array.from({ length: t.rating || 5 }).map((_, starIdx) => (
+                      <Star key={starIdx} size={16} fill="currentColor" />
+                    ))}
+                  </div>
+                  {t.cabinStayed && (
+                    <span className="text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 bg-stone-100 text-stone-600 rounded-full border border-stone-200">
+                      {t.cabinStayed}
+                    </span>
+                  )}
                 </div>
-                <p className="text-stone-600 italic mb-8 flex-grow leading-relaxed">
+
+                <p className="text-stone-600 italic mb-8 flex-grow leading-relaxed font-light text-sm md:text-base">
                   "{t.quote}"
                 </p>
-                <div>
-                  <h5 className="font-bold text-primary">{t.name}</h5>
-                  <p className="text-xs text-stone-400 uppercase tracking-wider">{t.location}</p>
+
+                <div className="flex items-center gap-3 pt-6 border-t border-stone-100">
+                  {t.avatar ? (
+                    <img
+                      src={resolveImage(t.avatar)}
+                      alt={t.name}
+                      className="w-11 h-11 rounded-full object-cover border border-accent/40 shadow-sm"
+                    />
+                  ) : (
+                    <div className="w-11 h-11 rounded-full bg-primary/10 text-primary flex items-center justify-center font-serif font-bold text-sm">
+                      {t.name ? t.name.charAt(0) : "G"}
+                    </div>
+                  )}
+                  <div>
+                    <h5 className="font-serif font-bold text-primary text-base leading-tight">
+                      {t.name}
+                    </h5>
+                    <p className="text-xs text-stone-400 uppercase tracking-wider mt-0.5">
+                      {t.location}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -445,7 +519,7 @@ export default function Home() {
               <div className="flex items-center gap-2 text-accent mb-6">
                 <Navigation size={20} />
                 <span className="text-xs font-bold uppercase tracking-widest">
-                  {locationSection?.label || "The Location"}
+                  {locationSection?.badge || locationSection?.label || "The Location"}
                 </span>
               </div>
               <h2 className="text-4xl lg:text-5xl font-serif mb-8 leading-tight">
@@ -460,7 +534,7 @@ export default function Home() {
                   {locationSection?.locationAddress || "Odessa, Missouri 64076"}
                 </p>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=38.9458417,-93.9713331"
+                  href={locationSection?.directionsLink || "https://www.google.com/maps/dir/?api=1&destination=38.9458417,-93.9713331"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-white hover:text-accent transition-colors"
@@ -470,7 +544,8 @@ export default function Home() {
               </div>
 
               <p className="text-stone-400 text-lg leading-relaxed mb-10 font-light">
-                {locationSection?.body ||
+                {locationSection?.description ||
+                  locationSection?.body ||
                   "East Pointe is strategically located in the heart of Missouri's beautiful countryside. A perfect escape that feels worlds away, yet conveniently close to major hubs."}
               </p>
 
@@ -497,7 +572,7 @@ export default function Home() {
             {/* Right Col: Map Embed */}
             <div className="lg:w-1/2 w-full h-[600px] rounded-sm overflow-hidden shadow-2xl relative border border-white/10 group">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12435.5!2d-93.9713331!3d38.9458417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c169965ad4a83d%3A0x1b1bb606912fe188!2sLake%20Lafayette!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus"
+                src={locationSection?.mapEmbedUrl || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12435.5!2d-93.9713331!3d38.9458417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c169965ad4a83d%3A0x1b1bb606912fe188!2sLake%20Lafayette!5e0!3m2!1sen!2sus!4v1709900000000!5m2!1sen!2sus"}
                 width="100%"
                 height="100%"
                 style={{
@@ -529,42 +604,25 @@ export default function Home() {
       {/* 8. THE EAST POINTE STANDARD */}
       <section className="py-24 container mx-auto px-6 border-b border-stone-100">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-serif text-primary mb-4">The East Pointe Standard</h2>
+          <h2 className="text-3xl font-serif text-primary mb-4">
+            {standardSection?.title || homeData?.amenitiesPreview?.title || "The East Pointe Standard"}
+          </h2>
           <div className="w-16 h-1 bg-accent mx-auto" />
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-          <div className="flex flex-col items-center text-center group">
-            <div className="p-5 bg-stone-50 rounded-full mb-6 text-stone-400 group-hover:bg-primary group-hover:text-accent transition-all duration-300">
-              <Star size={28} strokeWidth={1.5} />
-            </div>
-            <h4 className="font-bold text-primary mb-2 text-lg">5-Star Service</h4>
-            <p className="text-sm text-stone-500">24/7 Concierge & Support</p>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="p-5 bg-stone-50 rounded-full mb-6 text-stone-400 group-hover:bg-primary group-hover:text-accent transition-all duration-300">
-              <Wind size={28} strokeWidth={1.5} />
-            </div>
-            <h4 className="font-bold text-primary mb-2 text-lg">Fresh Air</h4>
-            <p className="text-sm text-stone-500">Secluded Private Locations</p>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="p-5 bg-stone-50 rounded-full mb-6 text-stone-400 group-hover:bg-primary group-hover:text-accent transition-all duration-300">
-              <Shield size={28} strokeWidth={1.5} />
-            </div>
-            <h4 className="font-bold text-primary mb-2 text-lg">Secure & Safe</h4>
-            <p className="text-sm text-stone-500">Smart Locks & Security</p>
-          </div>
-
-          <div className="flex flex-col items-center text-center group">
-            <div className="p-5 bg-stone-50 rounded-full mb-6 text-stone-400 group-hover:bg-primary group-hover:text-accent transition-all duration-300">
-              <Users size={28} strokeWidth={1.5} />
-            </div>
-            <h4 className="font-bold text-primary mb-2 text-lg">Family Ready</h4>
-            <p className="text-sm text-stone-500">Games, Cribs & More</p>
-          </div>
+          {standardPillars.map((pillar, idx) => {
+            const IconComp = typeof pillar.icon === 'string' ? getIcon(pillar.icon) : pillar.icon || Star;
+            return (
+              <div key={idx} className="flex flex-col items-center text-center group">
+                <div className="p-5 bg-stone-50 rounded-full mb-6 text-stone-400 group-hover:bg-primary group-hover:text-accent transition-all duration-300">
+                  <IconComp size={28} strokeWidth={1.5} />
+                </div>
+                <h4 className="font-bold text-primary mb-2 text-lg">{pillar.title}</h4>
+                <p className="text-sm text-stone-500">{pillar.description}</p>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -589,10 +647,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <Link
-              to={cta?.primaryButtonLink || "/cabins"}
+              to={cta?.primaryButtonLink || cta?.ctaLink || "/cabins"}
               className="px-12 py-5 bg-accent text-primary font-bold uppercase tracking-[0.2em] hover:bg-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1"
             >
-              {cta?.primaryButtonText || "Book Your Stay"}
+              {cta?.primaryButtonText || cta?.ctaText || "Book Your Stay"}
             </Link>
             <Link
               to={cta?.secondaryButtonLink || "/family"}

@@ -3,31 +3,50 @@ import {
   Users,
   Bed,
   Bath,
-  Ruler,
   MapPin,
   Clock,
   Navigation,
   Play,
   Maximize2,
   Compass,
-  Camera,
-  Check
+  Camera
 } from 'lucide-react';
 import Hero from '../components/Hero';
 import CabinModal, { Lightbox } from '../components/CabinModal';
-import { getCabinPage, getCabins, resolveImage, getSiteSettings } from '../data/siteContent';
+import { getCabinPage, useCabins, resolveImage, getSiteSettings } from '../data/siteContent';
 
 export default function Cabins() {
   const [selectedCabin, setSelectedCabin] = useState(null);
   const [mapLightboxOpen, setMapLightboxOpen] = useState(false);
 
   const cabinPageData = getCabinPage();
-  const cabins = getCabins();
+  const cabins = useCabins();
   const settings = getSiteSettings();
 
   const hero = cabinPageData?.hero;
   const intro = cabinPageData?.intro;
   const comeSeeUs = cabinPageData?.comeSeeUs;
+
+  const aerialTour = cabinPageData?.aerialTour;
+  const aerialVideoUrl =
+    aerialTour?.videoUrl ||
+    "https://res.cloudinary.com/dusub2qg5/video/upload/v1769971765/EastPointeAerial_ve13um.mp4";
+  const aerialVideoPoster = resolveImage(
+    aerialTour?.videoPoster,
+    "https://cdn.sanity.io/images/jlknt03a/production/852dc7bb39c4f4b209343cea30ef6d052fe21627-836x627-avif"
+  );
+  const aerialBadge = aerialTour?.badgeText || "Aerial Tour";
+
+  const groundsMap = cabinPageData?.groundsMap;
+  const groundsMapImage = resolveImage(
+    groundsMap?.mapImage || cabinPageData?.mapImage,
+    "/Map.avif"
+  );
+  const groundsMapTitle = groundsMap?.title || "Grounds Map";
+  const groundsMapSubtitle =
+    groundsMap?.subtitle ||
+    "Get oriented with our property layout showing cabin locations, lake access points, and walking trails throughout the estate.";
+  const groundsMapBadge = groundsMap?.badgeText || "Property Layout";
 
   return (
     <div className="bg-stone-50 pb-0">
@@ -227,34 +246,35 @@ export default function Cabins() {
       {/* 4. AERIAL VIDEO TOUR & GROUNDS MAP GRID */}
       <section className="container mx-auto px-6 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Aerial Tour Video Frame (lg:col-span-1 h-[500px] lg:h-[680px]) */}
+          {/* Aerial Tour Video Frame */}
           <div className="lg:col-span-1 h-[500px] lg:h-[680px] relative rounded-sm overflow-hidden shadow-xl group border-4 border-white bg-stone-900">
             <video
               className="w-full h-full object-cover"
-              poster="https://cdn.sanity.io/images/jlknt03a/production/852dc7bb39c4f4b209343cea30ef6d052fe21627-836x627-avif"
+              poster={aerialVideoPoster}
               controls
               playsInline
+              key={aerialVideoUrl}
             >
               <source
-                src="https://res.cloudinary.com/dusub2qg5/video/upload/v1769971765/EastPointeAerial_ve13um.mp4"
+                src={aerialVideoUrl}
                 type="video/mp4"
               />
               Your browser does not support the video tag.
             </video>
             <div className="absolute top-4 left-4 bg-black/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 pointer-events-none">
               <span className="text-white text-xs font-bold uppercase tracking-widest flex items-center gap-2">
-                <Play size={14} className="text-accent fill-accent" /> Aerial Tour
+                <Play size={14} className="text-accent fill-accent" /> {aerialBadge}
               </span>
             </div>
           </div>
 
-          {/* Grounds Map (lg:col-span-2 h-[550px] lg:h-[680px]) */}
+          {/* Grounds Map */}
           <div
             className="lg:col-span-2 h-[550px] lg:h-[680px] relative rounded-sm shadow-xl group border-4 border-white bg-stone-100 cursor-pointer"
             onClick={() => setMapLightboxOpen(true)}
           >
             <img
-              src="/Map.avif"
+              src={groundsMapImage}
               alt="East Pointe Property Map"
               className="w-full h-full object-cover"
             />
@@ -265,11 +285,11 @@ export default function Cabins() {
             <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full pointer-events-none">
               <div className="flex items-center gap-2 text-accent mb-3">
                 <Compass size={20} />
-                <span className="text-xs font-bold uppercase tracking-widest">Property Layout</span>
+                <span className="text-xs font-bold uppercase tracking-widest">{groundsMapBadge}</span>
               </div>
-              <h3 className="text-2xl md:text-3xl font-serif text-white mb-2">Grounds Map</h3>
+              <h3 className="text-2xl md:text-3xl font-serif text-white mb-2">{groundsMapTitle}</h3>
               <p className="text-stone-300 max-w-lg font-light leading-relaxed hidden md:block">
-                Get oriented with our property layout showing cabin locations, lake access points, and walking trails throughout the estate.
+                {groundsMapSubtitle}
               </p>
             </div>
           </div>
@@ -366,7 +386,7 @@ export default function Cabins() {
 
       {/* Fullscreen Grounds Map Lightbox */}
       <Lightbox
-        images={["/Map.avif"]}
+        images={[groundsMapImage]}
         initialIndex={0}
         isOpen={mapLightboxOpen}
         onClose={() => setMapLightboxOpen(false)}

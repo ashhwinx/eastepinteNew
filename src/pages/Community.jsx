@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
-import { getCommunityPage, getSiteSettings } from '../data/siteContent';
+import { getCommunityPage, getSiteSettings, resolveImage } from '../data/siteContent';
+import { getIcon } from '../components/iconMap';
 import {
   Heart,
   Users,
@@ -45,6 +46,18 @@ export default function Community() {
   const intro = pageData?.intro;
   const concierge = pageData?.concierge;
 
+  const rawCards = pageData?.eventCards;
+  const displayEventCards =
+    rawCards && rawCards.length > 0
+      ? rawCards.map((card) => ({
+          title: card.title,
+          description: card.description,
+          image: resolveImage(card.image, "/Community/Wedding.avif"),
+          icon: typeof card.icon === 'string' ? getIcon(card.icon) : (card.icon || Heart),
+          features: card.features || []
+        }))
+      : defaultEventCards;
+
   useEffect(() => {
     document.title = "Weddings, Reunions & Corporate Retreats | East Pointe";
   }, []);
@@ -55,7 +68,7 @@ export default function Community() {
       <Hero
         title={hero?.title || "Gather & Celebrate"}
         subtitle={hero?.subtitle || "Create lasting memories in the heart of nature."}
-        image="/Community/CommunityHero.avif"
+        image={resolveImage(hero?.image, "/Community/CommunityHero.avif")}
         height="large"
       />
 
@@ -79,7 +92,7 @@ export default function Community() {
       {/* 3. EVENT CARDS GRID */}
       <section className="pb-24 container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {defaultEventCards.map((card, r) => {
+          {displayEventCards.map((card, r) => {
             const IconComp = card.icon;
             return (
               <div

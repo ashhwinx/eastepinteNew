@@ -7,13 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seed": "node scripts/seed-sanity.js"
   },
   "dependencies": {
+    "@sanity/client": "^8.6.2",
+    "@sanity/image-url": "^2.1.1",
     "lucide-react": "^1.43.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.3"
+    "react-router-dom": "^7.18.3",
+    "sanity": "^6.15.0",
+    "styled-components": "^6.5.3"
   },
   "devDependencies": {
     "@types/react": "^19.2.18",

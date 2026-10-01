@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import ContactSection from '../components/ContactSection';
-import { getMembershipPage, getSiteSettings } from '../data/siteContent';
+import { getMembershipPage, getSiteSettings, resolveImage } from '../data/siteContent';
 import { Check, Mail, Phone } from 'lucide-react';
 
 const defaultBenefits = [
@@ -56,7 +56,7 @@ export default function Membership() {
           hero?.subtitle ||
           "Join our exclusive community of nature lovers and luxury seekers."
         }
-        image="/Membership/MembershipHero.avif"
+        image={resolveImage(hero?.image, "/Membership/MembershipHero.avif")}
         height="medium"
       />
 
